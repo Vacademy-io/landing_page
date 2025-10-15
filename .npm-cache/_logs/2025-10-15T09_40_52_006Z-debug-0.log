@@ -1,0 +1,1219 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shreyashjain/code_repos/vacademy_landing_page/.npmrc
+5 silly config load:file:/Users/shreyashjain/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install next-sitemap
+8 verbose argv "install" "next-sitemap"
+9 verbose logfile logs-max:10 dir:/Users/shreyashjain/code_repos/vacademy_landing_page/.npm-cache/_logs/2025-10-15T09_40_52_006Z-
+10 verbose logfile /Users/shreyashjain/code_repos/vacademy_landing_page/.npm-cache/_logs/2025-10-15T09_40_52_006Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @radix-ui/react-accordion@^1.2.12
+16 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-accordion cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+18 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-accordion 222ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-accordion set size:undefined disposed:false
+20 silly fetch manifest @types/react@^19
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/@types%2freact 70ms (cache revalidated)
+23 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2504314 disposed:false
+24 silly fetch manifest @types/react-dom@^19
+25 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 81ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:426214 disposed:false
+28 silly fetch manifest react@19.1.0
+29 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/react 52ms (cache revalidated)
+31 silly packumentCache full:https://registry.npmjs.org/react set size:6165345 disposed:false
+32 silly fetch manifest react-dom@19.1.0
+33 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/react-dom 59ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8036948 disposed:false
+36 silly fetch manifest @radix-ui/react-dialog@^1.1.15
+37 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dialog 92ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog set size:undefined disposed:false
+40 silly fetch manifest @radix-ui/react-dropdown-menu@^2.1.16
+41 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dropdown-menu cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dropdown-menu 80ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dropdown-menu set size:undefined disposed:false
+44 silly fetch manifest @radix-ui/react-navigation-menu@^1.2.14
+45 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-navigation-menu cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-navigation-menu 92ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-navigation-menu set size:undefined disposed:false
+48 silly fetch manifest @radix-ui/react-tabs@^1.1.13
+49 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-tabs cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-tabs 79ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-tabs set size:undefined disposed:false
+52 silly fetch manifest @radix-ui/react-tooltip@^1.2.8
+53 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-tooltip cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-tooltip 85ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-tooltip set size:undefined disposed:false
+56 silly fetch manifest next-sitemap@*
+57 silly packumentCache full:https://registry.npmjs.org/next-sitemap cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/next-sitemap 865ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/next-sitemap set size:undefined disposed:false
+60 silly fetch manifest next@15.5.5
+61 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/next 97ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/next set size:26997480 disposed:false
+64 silly fetch manifest @opentelemetry/api@^1.1.0
+65 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 84ms (cache revalidated)
+67 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:455567 disposed:false
+68 silly fetch manifest @playwright/test@^1.51.1
+69 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 88ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:8357007 disposed:false
+72 silly fetch manifest babel-plugin-react-compiler@*
+73 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 52ms (cache revalidated)
+75 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1051987 disposed:false
+76 silly fetch manifest sass@^1.3.0
+77 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/sass 48ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/sass set size:697197 disposed:false
+80 silly placeDep ROOT @radix-ui/react-accordion@1.2.12 OK for: vacademy_landing_page@0.1.0 want: ^1.2.12
+81 silly placeDep ROOT @radix-ui/react-dialog@1.1.15 OK for: vacademy_landing_page@0.1.0 want: ^1.1.15
+82 silly placeDep ROOT @radix-ui/react-dropdown-menu@2.1.16 OK for: vacademy_landing_page@0.1.0 want: ^2.1.16
+83 silly placeDep ROOT @radix-ui/react-navigation-menu@1.2.14 OK for: vacademy_landing_page@0.1.0 want: ^1.2.14
+84 silly placeDep ROOT @radix-ui/react-tabs@1.1.13 OK for: vacademy_landing_page@0.1.0 want: ^1.1.13
+85 silly placeDep ROOT @radix-ui/react-tooltip@1.2.8 OK for: vacademy_landing_page@0.1.0 want: ^1.2.8
+86 silly placeDep ROOT next-sitemap@4.2.3 OK for: vacademy_landing_page@0.1.0 want: *
+87 silly fetch manifest @radix-ui/react-collapsible@1.1.12
+88 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible cache-miss
+89 silly fetch manifest @radix-ui/react-presence@1.1.5
+90 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+91 silly fetch manifest @radix-ui/react-menu@2.1.16
+92 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-menu cache-miss
+93 silly fetch manifest @radix-ui/react-presence@1.1.5
+94 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+95 silly fetch manifest @radix-ui/react-presence@1.1.5
+96 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+97 silly fetch manifest @radix-ui/react-roving-focus@1.1.11
+98 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-roving-focus cache-miss
+99 silly fetch manifest @radix-ui/react-presence@1.1.5
+100 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+101 silly fetch manifest @corex/deepmerge@^4.0.43
+102 silly packumentCache full:https://registry.npmjs.org/@corex%2fdeepmerge cache-miss
+103 silly fetch manifest @next/env@^13.4.3
+104 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-collapsible 81ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible set size:undefined disposed:false
+107 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 174ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+109 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 177ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+111 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 184ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+113 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 187ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/@corex%2fdeepmerge 204ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/@corex%2fdeepmerge set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 236ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:6398602 disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-menu 399ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-menu set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-roving-focus 423ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-roving-focus set size:undefined disposed:false
+123 silly fetch manifest @types/react@*
+124 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+125 http cache https://registry.npmjs.org/@types%2freact 3ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2504314 disposed:false
+127 silly fetch manifest @types/react-dom@*
+128 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-hit
+129 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+130 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+131 http cache https://registry.npmjs.org/react 5ms (cache hit)
+132 silly packumentCache full:https://registry.npmjs.org/react set size:6165345 disposed:false
+133 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+134 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+135 http cache https://registry.npmjs.org/react-dom 7ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8036948 disposed:false
+137 silly placeDep ROOT @radix-ui/react-collapsible@1.1.12 OK for: @radix-ui/react-accordion@1.2.12 want: 1.1.12
+138 silly placeDep ROOT @radix-ui/react-presence@1.1.5 OK for: @radix-ui/react-collapsible@1.1.12 want: 1.1.5
+139 silly placeDep ROOT @radix-ui/react-menu@2.1.16 OK for: @radix-ui/react-dropdown-menu@2.1.16 want: 2.1.16
+140 silly placeDep ROOT @radix-ui/react-roving-focus@1.1.11 OK for: @radix-ui/react-menu@2.1.16 want: 1.1.11
+141 silly placeDep ROOT @corex/deepmerge@4.0.43 OK for: next-sitemap@4.2.3 want: ^4.0.43
+142 silly placeDep node_modules/next-sitemap @next/env@13.5.11 OK for: next-sitemap@4.2.3 want: ^13.4.3
+143 silly reify mark retired [
+143 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint',
+143 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/eslint'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint-config-prettier',
+144 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/eslint-config-prettier'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/embla-carousel-react'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint-config-next'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lenis'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lucide-react'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/clsx'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/class-variance-authority'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/next',
+151 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/next'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/gsap'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/next-themes'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/query-string'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/sonner'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tailwindcss'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tw-animate-css'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/prettier',
+158 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/prettier'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/react-dom'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/typescript',
+160 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/tsc',
+160 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/tsserver'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/react'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-dialog'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-accordion'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tailwind-merge'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-dropdown-menu'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-slot'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-navigation-menu'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-tooltip'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@eslint/eslintrc'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/zod'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/framer-motion'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-tabs'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/react-dom'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-select'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-switch'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/react'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/postcss'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-separator'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-label'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/node'
+180 silly reify ]
+181 silly reify moves {
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.eslint-5EyITqEA',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/eslint': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.eslint-1Lqxo58d',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint-config-prettier': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.eslint-config-prettier-Ic9psQJ8',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/eslint-config-prettier': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.eslint-config-prettier-audPImi4',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/embla-carousel-react': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.embla-carousel-react-wABClbUK',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/eslint-config-next': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.eslint-config-next-LYupmCWC',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lenis': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.lenis-uYAayFHz',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lucide-react': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.lucide-react-qcAbWC4v',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/clsx': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.clsx-kMTzdfK9',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/class-variance-authority': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.class-variance-authority-U6FNPqGm',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/next': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.next-dvx02LCQ',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/next': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.next-9XcygRJe',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/gsap': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.gsap-5PQ3Fj8U',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/next-themes': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.next-themes-R2XqE7zM',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/query-string': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.query-string-SuSlZ39N',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/sonner': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.sonner-wilfDeul',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tailwindcss': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.tailwindcss-DMNrUw6h',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tw-animate-css': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.tw-animate-css-mAgaI1Y3',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/prettier': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.prettier-kf02Ysh2',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/prettier': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.prettier-IOM7XrdV',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/react-dom': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.react-dom-FWt6skRA',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/typescript': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.typescript-ZvqREc8q',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/tsc': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.tsc-Q7dtFvpU',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/tsserver': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.bin/.tsserver-Ku6rEQlK',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/react': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.react-cBG9ZRi1',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-dialog': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-dialog-Eo5hy2lY',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-accordion': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-accordion-kA4OpsYB',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/tailwind-merge': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.tailwind-merge-qq5aIaCH',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-dropdown-menu': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-dropdown-menu-zs75FXJV',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-slot': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-slot-yQssSxmC',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-navigation-menu': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-navigation-menu-lhzJEs9F',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-tooltip': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-tooltip-itw51nkz',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@eslint/eslintrc': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@eslint/.eslintrc-Hp8r969y',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/zod': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.zod-H5fYJ8Hs',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/framer-motion': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/.framer-motion-lR5YRo5o',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-tabs': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-tabs-Q7xjVJ2m',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/react-dom': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/.react-dom-WwgAo6YN',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-select': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-select-nzlCl1aY',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-switch': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-switch-9eh5fUaV',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/react': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/.react-41Qiuo0p',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/postcss': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/.postcss-A6q4jRJV',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-separator': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-separator-cIK1ccWn',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/react-label': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@radix-ui/.react-label-twiAUIsP',
+181 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/node': '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@types/.node-nQ1gEEqs'
+181 silly reify }
+182 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-wasm32-wasi
+183 silly reify mark deleted [
+183 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-wasm32-wasi'
+183 silly reify ]
+184 silly audit bulk request {
+184 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+184 silly audit   '@emnapi/core': [ '1.5.0' ],
+184 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+184 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+184 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+184 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+184 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+184 silly audit   '@eslint/config-array': [ '0.21.0' ],
+184 silly audit   '@eslint/config-helpers': [ '0.4.0' ],
+184 silly audit   '@eslint/core': [ '0.16.0' ],
+184 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+184 silly audit   '@eslint/js': [ '9.37.0' ],
+184 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+184 silly audit   '@eslint/plugin-kit': [ '0.4.0' ],
+184 silly audit   '@floating-ui/core': [ '1.7.3' ],
+184 silly audit   '@floating-ui/dom': [ '1.7.4' ],
+184 silly audit   '@floating-ui/react-dom': [ '2.1.6' ],
+184 silly audit   '@floating-ui/utils': [ '0.2.10' ],
+184 silly audit   '@humanfs/core': [ '0.19.1' ],
+184 silly audit   '@humanfs/node': [ '0.16.7' ],
+184 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+184 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+184 silly audit   '@img/colour': [ '1.0.0' ],
+184 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+184 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+184 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+184 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+184 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+184 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+184 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+184 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+184 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+184 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+184 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+184 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+184 silly audit   '@next/env': [ '15.5.5', '13.5.11' ],
+184 silly audit   '@next/eslint-plugin-next': [ '15.5.5' ],
+184 silly audit   '@next/swc-darwin-arm64': [ '15.5.5' ],
+184 silly audit   '@next/swc-darwin-x64': [ '15.5.5' ],
+184 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.5' ],
+184 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.5' ],
+184 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.5' ],
+184 silly audit   '@next/swc-linux-x64-musl': [ '15.5.5' ],
+184 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.5' ],
+184 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.5' ],
+184 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+184 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+184 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+184 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+184 silly audit   '@radix-ui/number': [ '1.1.1' ],
+184 silly audit   '@radix-ui/primitive': [ '1.1.3' ],
+184 silly audit   '@radix-ui/react-arrow': [ '1.1.7' ],
+184 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+184 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+184 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+184 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.11' ],
+184 silly audit   '@radix-ui/react-focus-guards': [ '1.1.3' ],
+184 silly audit   '@radix-ui/react-focus-scope': [ '1.1.7' ],
+184 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-label': [ '2.1.7' ],
+184 silly audit   '@radix-ui/react-popper': [ '1.2.8' ],
+184 silly audit   '@radix-ui/react-portal': [ '1.1.9' ],
+184 silly audit   '@radix-ui/react-primitive': [ '2.1.3' ],
+184 silly audit   '@radix-ui/react-select': [ '2.2.6' ],
+184 silly audit   '@radix-ui/react-separator': [ '1.1.7' ],
+184 silly audit   '@radix-ui/react-slot': [ '1.2.3' ],
+184 silly audit   '@radix-ui/react-switch': [ '1.2.6' ],
+184 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+184 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+184 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+184 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.3' ],
+184 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+184 silly audit   '@rtsao/scc': [ '1.1.0' ],
+184 silly audit   '@rushstack/eslint-patch': [ '1.14.0' ],
+184 silly audit   '@swc/helpers': [ '0.5.15' ],
+184 silly audit   '@tailwindcss/node': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.14' ],
+184 silly audit   '@tailwindcss/postcss': [ '4.1.14' ],
+184 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+184 silly audit   '@types/estree': [ '1.0.8' ],
+184 silly audit   '@types/json-schema': [ '7.0.15' ],
+184 silly audit   '@types/json5': [ '0.0.29' ],
+184 silly audit   '@types/node': [ '20.19.21' ],
+184 silly audit   '@types/react': [ '19.2.2' ],
+184 silly audit   '@types/react-dom': [ '19.2.2' ],
+184 silly audit   '@typescript-eslint/eslint-plugin': [ '8.46.1' ],
+184 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+184 silly audit   '@typescript-eslint/parser': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/project-service': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/scope-manager': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/type-utils': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/types': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/typescript-estree': [ '8.46.1' ],
+184 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+184 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+184 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+184 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+184 silly audit   '@typescript-eslint/utils': [ '8.46.1' ],
+184 silly audit   '@typescript-eslint/visitor-keys': [ '8.46.1' ],
+184 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+184 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+184 silly audit   acorn: [ '8.15.0' ],
+184 silly audit   'acorn-jsx': [ '5.3.2' ],
+184 silly audit   ajv: [ '6.12.6' ],
+184 silly audit   'ansi-styles': [ '4.3.0' ],
+184 silly audit   argparse: [ '2.0.1' ],
+184 silly audit   'aria-hidden': [ '1.2.6' ],
+184 silly audit   'aria-query': [ '5.3.2' ],
+184 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+184 silly audit   'array-includes': [ '3.1.9' ],
+184 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+184 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+184 silly audit   'array.prototype.flat': [ '1.3.3' ],
+184 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+184 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+184 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+184 silly audit   'ast-types-flow': [ '0.0.8' ],
+184 silly audit   'async-function': [ '1.0.0' ],
+184 silly audit   'available-typed-arrays': [ '1.0.7' ],
+184 silly audit   'axe-core': [ '4.11.0' ],
+184 silly audit   'axobject-query': [ '4.1.0' ],
+184 silly audit   'balanced-match': [ '1.0.2' ],
+184 silly audit   braces: [ '3.0.3' ],
+184 silly audit   'call-bind': [ '1.0.8' ],
+184 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+184 silly audit   'call-bound': [ '1.0.4' ],
+184 silly audit   callsites: [ '3.1.0' ],
+184 silly audit   'caniuse-lite': [ '1.0.30001750' ],
+184 silly audit   chalk: [ '4.1.2' ],
+184 silly audit   chownr: [ '3.0.0' ],
+184 silly audit   'class-variance-authority': [ '0.7.1' ],
+184 silly audit   'client-only': [ '0.0.1' ],
+184 silly audit   clsx: [ '2.1.1' ],
+184 silly audit   'color-convert': [ '2.0.1' ],
+184 silly audit   'color-name': [ '1.1.4' ],
+184 silly audit   'concat-map': [ '0.0.1' ],
+184 silly audit   'cross-spawn': [ '7.0.6' ],
+184 silly audit   csstype: [ '3.1.3' ],
+184 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+184 silly audit   'data-view-buffer': [ '1.0.2' ],
+184 silly audit   'data-view-byte-length': [ '1.0.2' ],
+184 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+184 silly audit   debug: [ '4.4.3', '3.2.7' ],
+184 silly audit   'decode-uri-component': [ '0.4.1' ],
+184 silly audit   'deep-is': [ '0.1.4' ],
+184 silly audit   'define-data-property': [ '1.1.4' ],
+184 silly audit   'define-properties': [ '1.2.1' ],
+184 silly audit   'detect-libc': [ '2.1.2' ],
+184 silly audit   'detect-node-es': [ '1.1.0' ],
+184 silly audit   doctrine: [ '2.1.0' ],
+184 silly audit   'dunder-proto': [ '1.0.1' ],
+184 silly audit   'embla-carousel': [ '8.6.0' ],
+184 silly audit   'embla-carousel-react': [ '8.6.0' ],
+184 silly audit   'embla-carousel-reactive-utils': [ '8.6.0' ],
+184 silly audit   'emoji-regex': [ '9.2.2' ],
+184 silly audit   'enhanced-resolve': [ '5.18.3' ],
+184 silly audit   'es-abstract': [ '1.24.0' ],
+184 silly audit   'es-define-property': [ '1.0.1' ],
+184 silly audit   'es-errors': [ '1.3.0' ],
+184 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+184 silly audit   'es-object-atoms': [ '1.1.1' ],
+184 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+184 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+184 silly audit   'es-to-primitive': [ '1.3.0' ],
+184 silly audit   'escape-string-regexp': [ '4.0.0' ],
+184 silly audit   eslint: [ '9.37.0' ],
+184 silly audit   'eslint-config-next': [ '15.5.5' ],
+184 silly audit   'eslint-config-prettier': [ '10.1.8' ],
+184 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+184 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+184 silly audit   'eslint-module-utils': [ '2.12.1' ],
+184 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+184 silly audit   semver: [ '6.3.1', '7.7.3' ],
+184 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+184 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+184 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+184 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+184 silly audit   'eslint-scope': [ '8.4.0' ],
+184 silly audit   espree: [ '10.4.0' ],
+184 silly audit   esquery: [ '1.6.0' ],
+184 silly audit   esrecurse: [ '4.3.0' ],
+184 silly audit   estraverse: [ '5.3.0' ],
+184 silly audit   esutils: [ '2.0.3' ],
+184 silly audit   'fast-deep-equal': [ '3.1.3' ],
+184 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+184 silly audit   'fast-levenshtein': [ '2.0.6' ],
+184 silly audit   fastq: [ '1.19.1' ],
+184 silly audit   'file-entry-cache': [ '8.0.0' ],
+184 silly audit   'fill-range': [ '7.1.1' ],
+184 silly audit   'filter-obj': [ '5.1.0' ],
+184 silly audit   'find-up': [ '5.0.0' ],
+184 silly audit   'flat-cache': [ '4.0.1' ],
+184 silly audit   flatted: [ '3.3.3' ],
+184 silly audit   'for-each': [ '0.3.5' ],
+184 silly audit   'framer-motion': [ '12.23.24' ],
+184 silly audit   'function-bind': [ '1.1.2' ],
+184 silly audit   'function.prototype.name': [ '1.1.8' ],
+184 silly audit   'functions-have-names': [ '1.2.3' ],
+184 silly audit   'generator-function': [ '2.0.1' ],
+184 silly audit   'get-intrinsic': [ '1.3.0' ],
+184 silly audit   'get-nonce': [ '1.0.1' ],
+184 silly audit   'get-proto': [ '1.0.1' ],
+184 silly audit   'get-symbol-description': [ '1.1.0' ],
+184 silly audit   'get-tsconfig': [ '4.12.0' ],
+184 silly audit   globals: [ '14.0.0' ],
+184 silly audit   globalthis: [ '1.0.4' ],
+184 silly audit   gopd: [ '1.2.0' ],
+184 silly audit   'graceful-fs': [ '4.2.11' ],
+184 silly audit   graphemer: [ '1.4.0' ],
+184 silly audit   gsap: [ '3.13.0' ],
+184 silly audit   'has-bigints': [ '1.1.0' ],
+184 silly audit   'has-flag': [ '4.0.0' ],
+184 silly audit   'has-property-descriptors': [ '1.0.2' ],
+184 silly audit   'has-proto': [ '1.2.0' ],
+184 silly audit   'has-symbols': [ '1.1.0' ],
+184 silly audit   'has-tostringtag': [ '1.0.2' ],
+184 silly audit   hasown: [ '2.0.2' ],
+184 silly audit   'import-fresh': [ '3.3.1' ],
+184 silly audit   imurmurhash: [ '0.1.4' ],
+184 silly audit   'internal-slot': [ '1.1.0' ],
+184 silly audit   'is-array-buffer': [ '3.0.5' ],
+184 silly audit   'is-async-function': [ '2.1.1' ],
+184 silly audit   'is-bigint': [ '1.1.0' ],
+184 silly audit   'is-boolean-object': [ '1.2.2' ],
+184 silly audit   'is-bun-module': [ '2.0.0' ],
+184 silly audit   'is-callable': [ '1.2.7' ],
+184 silly audit   'is-core-module': [ '2.16.1' ],
+184 silly audit   'is-data-view': [ '1.0.2' ],
+184 silly audit   'is-date-object': [ '1.1.0' ],
+184 silly audit   'is-extglob': [ '2.1.1' ],
+184 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+184 silly audit   'is-generator-function': [ '1.1.2' ],
+184 silly audit   'is-glob': [ '4.0.3' ],
+184 silly audit   'is-map': [ '2.0.3' ],
+184 silly audit   'is-negative-zero': [ '2.0.3' ],
+184 silly audit   'is-number': [ '7.0.0' ],
+184 silly audit   'is-number-object': [ '1.1.1' ],
+184 silly audit   'is-regex': [ '1.2.1' ],
+184 silly audit   'is-set': [ '2.0.3' ],
+184 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+184 silly audit   'is-string': [ '1.1.1' ],
+184 silly audit   'is-symbol': [ '1.1.1' ],
+184 silly audit   'is-typed-array': [ '1.1.15' ],
+184 silly audit   'is-weakmap': [ '2.0.2' ],
+184 silly audit   'is-weakref': [ '1.1.1' ],
+184 silly audit   'is-weakset': [ '2.0.4' ],
+184 silly audit   isarray: [ '2.0.5' ],
+184 silly audit   isexe: [ '2.0.0' ],
+184 silly audit   'iterator.prototype': [ '1.1.5' ],
+184 silly audit   jiti: [ '2.6.1' ],
+184 silly audit   'js-tokens': [ '4.0.0' ],
+184 silly audit   'js-yaml': [ '4.1.0' ],
+184 silly audit   'json-buffer': [ '3.0.1' ],
+184 silly audit   'json-schema-traverse': [ '0.4.1' ],
+184 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+184 silly audit   json5: [ '1.0.2' ],
+184 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+184 silly audit   keyv: [ '4.5.4' ],
+184 silly audit   'language-subtag-registry': [ '0.3.23' ],
+184 silly audit   'language-tags': [ '1.0.9' ],
+184 silly audit   lenis: [ '1.3.11' ],
+184 silly audit   levn: [ '0.4.1' ],
+184 silly audit   lightningcss: [ '1.30.1' ],
+184 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+184 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+184 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+184 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+184 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+184 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+184 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+184 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+184 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+184 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+184 silly audit   'locate-path': [ '6.0.0' ],
+184 silly audit   'lodash.merge': [ '4.6.2' ],
+184 silly audit   'loose-envify': [ '1.4.0' ],
+184 silly audit   'lucide-react': [ '0.545.0' ],
+184 silly audit   'magic-string': [ '0.30.19' ],
+184 silly audit   'math-intrinsics': [ '1.1.0' ],
+184 silly audit   merge2: [ '1.4.1' ],
+184 silly audit   micromatch: [ '4.0.8' ],
+184 silly audit   minimist: [ '1.2.8' ],
+184 silly audit   minipass: [ '7.1.2' ],
+184 silly audit   minizlib: [ '3.1.0' ],
+184 silly audit   'motion-dom': [ '12.23.23' ],
+184 silly audit   'motion-utils': [ '12.23.6' ],
+184 silly audit   ms: [ '2.1.3' ],
+184 silly audit   nanoid: [ '3.3.11' ],
+184 silly audit   'napi-postinstall': [ '0.3.4' ],
+184 silly audit   'natural-compare': [ '1.4.0' ],
+184 silly audit   next: [ '15.5.5' ],
+184 silly audit   'next-themes': [ '0.4.6' ],
+184 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+184 silly audit   'object-assign': [ '4.1.1' ],
+184 silly audit   'object-inspect': [ '1.13.4' ],
+184 silly audit   'object-keys': [ '1.1.1' ],
+184 silly audit   'object.assign': [ '4.1.7' ],
+184 silly audit   'object.entries': [ '1.1.9' ],
+184 silly audit   'object.fromentries': [ '2.0.8' ],
+184 silly audit   'object.groupby': [ '1.0.3' ],
+184 silly audit   'object.values': [ '1.2.1' ],
+184 silly audit   optionator: [ '0.9.4' ],
+184 silly audit   'own-keys': [ '1.0.1' ],
+184 silly audit   'p-limit': [ '3.1.0' ],
+184 silly audit   'p-locate': [ '5.0.0' ],
+184 silly audit   'parent-module': [ '1.0.1' ],
+184 silly audit   'path-exists': [ '4.0.0' ],
+184 silly audit   'path-key': [ '3.1.1' ],
+184 silly audit   'path-parse': [ '1.0.7' ],
+184 silly audit   picocolors: [ '1.1.1' ],
+184 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+184 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+184 silly audit   'prelude-ls': [ '1.2.1' ],
+184 silly audit   prettier: [ '3.6.2' ],
+184 silly audit   'prop-types': [ '15.8.1' ],
+184 silly audit   punycode: [ '2.3.1' ],
+184 silly audit   'query-string': [ '9.3.1' ],
+184 silly audit   'queue-microtask': [ '1.2.3' ],
+184 silly audit   react: [ '19.1.0' ],
+184 silly audit   'react-dom': [ '19.1.0' ],
+184 silly audit   'react-is': [ '16.13.1' ],
+184 silly audit   'react-remove-scroll': [ '2.7.1' ],
+184 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+184 silly audit   'react-style-singleton': [ '2.2.3' ],
+184 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+184 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+184 silly audit   'resolve-from': [ '4.0.0' ],
+184 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+184 silly audit   reusify: [ '1.1.0' ],
+184 silly audit   'run-parallel': [ '1.2.0' ],
+184 silly audit   'safe-array-concat': [ '1.1.3' ],
+184 silly audit   'safe-push-apply': [ '1.0.0' ],
+184 silly audit   'safe-regex-test': [ '1.1.0' ],
+184 silly audit   scheduler: [ '0.26.0' ],
+184 silly audit   'set-function-length': [ '1.2.2' ],
+184 silly audit   'set-function-name': [ '2.0.2' ],
+184 silly audit   'set-proto': [ '1.0.0' ],
+184 silly audit   sharp: [ '0.34.4' ],
+184 silly audit   'shebang-command': [ '2.0.0' ],
+184 silly audit   'shebang-regex': [ '3.0.0' ],
+184 silly audit   'side-channel': [ '1.1.0' ],
+184 silly audit   'side-channel-list': [ '1.0.0' ],
+184 silly audit   'side-channel-map': [ '1.0.1' ],
+184 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+184 silly audit   sonner: [ '2.0.7' ],
+184 silly audit   'source-map-js': [ '1.2.1' ],
+184 silly audit   'split-on-first': [ '3.0.0' ],
+184 silly audit   'stable-hash': [ '0.0.5' ],
+184 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+184 silly audit   'string.prototype.includes': [ '2.0.1' ],
+184 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+184 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+184 silly audit   'string.prototype.trim': [ '1.2.10' ],
+184 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+184 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+184 silly audit   'strip-bom': [ '3.0.0' ],
+184 silly audit   'strip-json-comments': [ '3.1.1' ],
+184 silly audit   'styled-jsx': [ '5.1.6' ],
+184 silly audit   'supports-color': [ '7.2.0' ],
+184 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+184 silly audit   'tailwind-merge': [ '3.3.1' ],
+184 silly audit   tailwindcss: [ '4.1.14' ],
+184 silly audit   tapable: [ '2.3.0' ],
+184 silly audit   tar: [ '7.5.1' ],
+184 silly audit   tinyglobby: [ '0.2.15' ],
+184 silly audit   fdir: [ '6.5.0' ],
+184 silly audit   'to-regex-range': [ '5.0.1' ],
+184 silly audit   'ts-api-utils': [ '2.1.0' ],
+184 silly audit   'tsconfig-paths': [ '3.15.0' ],
+184 silly audit   tslib: [ '2.8.1' ],
+184 silly audit   'tw-animate-css': [ '1.4.0' ],
+184 silly audit   'type-check': [ '0.4.0' ],
+184 silly audit   'typed-array-buffer': [ '1.0.3' ],
+184 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+184 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+184 silly audit   'typed-array-length': [ '1.0.7' ],
+184 silly audit   typescript: [ '5.9.3' ],
+184 silly audit   'unbox-primitive': [ '1.1.0' ],
+184 silly audit   'undici-types': [ '6.21.0' ],
+184 silly audit   'unrs-resolver': [ '1.11.1' ],
+184 silly audit   'uri-js': [ '4.4.1' ],
+184 silly audit   'use-callback-ref': [ '1.3.3' ],
+184 silly audit   'use-sidecar': [ '1.1.3' ],
+184 silly audit   which: [ '2.0.2' ],
+184 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+184 silly audit   'which-builtin-type': [ '1.2.1' ],
+184 silly audit   'which-collection': [ '1.0.2' ],
+184 silly audit   'which-typed-array': [ '1.1.19' ],
+184 silly audit   'word-wrap': [ '1.2.5' ],
+184 silly audit   yallist: [ '5.0.0' ],
+184 silly audit   'yocto-queue': [ '0.1.0' ],
+184 silly audit   zod: [ '4.1.12' ],
+184 silly audit   '@radix-ui/react-accordion': [ '1.2.12' ],
+184 silly audit   '@radix-ui/react-dialog': [ '1.1.15' ],
+184 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.16' ],
+184 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.14' ],
+184 silly audit   '@radix-ui/react-tabs': [ '1.1.13' ],
+184 silly audit   '@radix-ui/react-tooltip': [ '1.2.8' ],
+184 silly audit   'next-sitemap': [ '4.2.3' ],
+184 silly audit   '@radix-ui/react-collapsible': [ '1.1.12' ],
+184 silly audit   '@radix-ui/react-presence': [ '1.1.5' ],
+184 silly audit   '@radix-ui/react-menu': [ '2.1.16' ],
+184 silly audit   '@radix-ui/react-roving-focus': [ '1.1.11' ],
+184 silly audit   '@corex/deepmerge': [ '4.0.43' ],
+184 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.14' ]
+184 silly audit }
+185 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-x64-msvc
+186 silly reify mark deleted [
+186 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-x64-msvc'
+186 silly reify ]
+187 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-arm64-msvc
+188 silly reify mark deleted [
+188 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-arm64-msvc'
+188 silly reify ]
+189 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-musl
+190 silly reify mark deleted [
+190 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-musl'
+190 silly reify ]
+191 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-gnu
+192 silly reify mark deleted [
+192 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-gnu'
+192 silly reify ]
+193 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-musl
+194 silly reify mark deleted [
+194 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-musl'
+194 silly reify ]
+195 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-gnu
+196 silly reify mark deleted [
+196 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-gnu'
+196 silly reify ]
+197 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm-gnueabihf
+198 silly reify mark deleted [
+198 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm-gnueabihf'
+198 silly reify ]
+199 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-freebsd-x64
+200 silly reify mark deleted [
+200 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-freebsd-x64'
+200 silly reify ]
+201 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-darwin-x64
+202 silly reify mark deleted [
+202 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-darwin-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-x64-msvc
+204 silly reify mark deleted [
+204 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+204 silly reify ]
+205 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+206 silly reify mark deleted [
+206 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+206 silly reify ]
+207 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+208 silly reify mark deleted [
+208 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+208 silly reify ]
+209 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-wasm32-wasi
+210 silly reify mark deleted [
+210 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-wasm32-wasi'
+210 silly reify ]
+211 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-musl
+212 silly reify mark deleted [
+212 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-musl'
+212 silly reify ]
+213 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-gnu
+214 silly reify mark deleted [
+214 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+214 silly reify ]
+215 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+216 silly reify mark deleted [
+216 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+216 silly reify ]
+217 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+218 silly reify mark deleted [
+218 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+218 silly reify ]
+219 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+220 silly reify mark deleted [
+220 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+222 silly reify mark deleted [
+222 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-musl
+224 silly reify mark deleted [
+224 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+226 silly reify mark deleted [
+226 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+228 silly reify mark deleted [
+228 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+228 silly reify ]
+229 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+230 silly reify mark deleted [
+230 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+230 silly reify ]
+231 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-freebsd-x64
+232 silly reify mark deleted [
+232 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-freebsd-x64'
+232 silly reify ]
+233 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-darwin-x64
+234 silly reify mark deleted [
+234 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-darwin-x64'
+234 silly reify ]
+235 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm64
+236 silly reify mark deleted [
+236 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm64'
+236 silly reify ]
+237 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm-eabi
+238 silly reify mark deleted [
+238 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm-eabi'
+238 silly reify ]
+239 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-x64-msvc
+240 silly reify mark deleted [
+240 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+240 silly reify ]
+241 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+242 silly reify mark deleted [
+242 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+242 silly reify ]
+243 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-musl
+244 silly reify mark deleted [
+244 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-musl'
+244 silly reify ]
+245 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-gnu
+246 silly reify mark deleted [
+246 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+246 silly reify ]
+247 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-musl
+248 silly reify mark deleted [
+248 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+248 silly reify ]
+249 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+250 silly reify mark deleted [
+250 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+250 silly reify ]
+251 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+252 silly reify mark deleted [
+252 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+252 silly reify ]
+253 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-freebsd-x64
+254 silly reify mark deleted [
+254 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-freebsd-x64'
+254 silly reify ]
+255 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-darwin-x64
+256 silly reify mark deleted [
+256 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-darwin-x64'
+256 silly reify ]
+257 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-android-arm64
+258 silly reify mark deleted [
+258 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-android-arm64'
+258 silly reify ]
+259 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-x64-msvc
+260 silly reify mark deleted [
+260 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-x64-msvc'
+260 silly reify ]
+261 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-arm64-msvc
+262 silly reify mark deleted [
+262 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-arm64-msvc'
+262 silly reify ]
+263 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-musl
+264 silly reify mark deleted [
+264 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-musl'
+264 silly reify ]
+265 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-gnu
+266 silly reify mark deleted [
+266 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-gnu'
+266 silly reify ]
+267 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-musl
+268 silly reify mark deleted [
+268 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-musl'
+268 silly reify ]
+269 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-gnu
+270 silly reify mark deleted [
+270 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-gnu'
+270 silly reify ]
+271 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-darwin-x64
+272 silly reify mark deleted [
+272 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-darwin-x64'
+272 silly reify ]
+273 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-x64
+274 silly reify mark deleted [
+274 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-x64'
+274 silly reify ]
+275 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-ia32
+276 silly reify mark deleted [
+276 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-ia32'
+276 silly reify ]
+277 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-arm64
+278 silly reify mark deleted [
+278 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-arm64'
+278 silly reify ]
+279 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-wasm32
+280 silly reify mark deleted [
+280 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-wasm32'
+280 silly reify ]
+281 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-x64
+282 silly reify mark deleted [
+282 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-x64'
+282 silly reify ]
+283 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-arm64
+284 silly reify mark deleted [
+284 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-arm64'
+284 silly reify ]
+285 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-x64
+286 silly reify mark deleted [
+286 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-x64'
+286 silly reify ]
+287 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-s390x
+288 silly reify mark deleted [
+288 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-s390x'
+288 silly reify ]
+289 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-ppc64
+290 silly reify mark deleted [
+290 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-ppc64'
+290 silly reify ]
+291 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm64
+292 silly reify mark deleted [
+292 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm64'
+292 silly reify ]
+293 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm
+294 silly reify mark deleted [
+294 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm'
+294 silly reify ]
+295 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-x64
+296 silly reify mark deleted [
+296 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-x64'
+296 silly reify ]
+297 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-arm64
+298 silly reify mark deleted [
+298 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+298 silly reify ]
+299 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-x64
+300 silly reify mark deleted [
+300 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-x64'
+300 silly reify ]
+301 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-s390x
+302 silly reify mark deleted [
+302 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-s390x'
+302 silly reify ]
+303 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-ppc64
+304 silly reify mark deleted [
+304 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-ppc64'
+304 silly reify ]
+305 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm64
+306 silly reify mark deleted [
+306 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm64'
+306 silly reify ]
+307 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm
+308 silly reify mark deleted [
+308 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm'
+308 silly reify ]
+309 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-darwin-x64
+310 silly reify mark deleted [
+310 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-darwin-x64'
+310 silly reify ]
+311 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-darwin-x64
+312 silly reify mark deleted [
+312 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-darwin-x64'
+312 silly reify ]
+313 http cache @radix-ui/react-roving-focus@https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.11.tgz 0ms (cache hit)
+314 http cache @radix-ui/react-menu@https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.16.tgz 0ms (cache hit)
+315 http cache @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.12.tgz 0ms (cache hit)
+316 http cache next-sitemap@https://registry.npmjs.org/next-sitemap/-/next-sitemap-4.2.3.tgz 0ms (cache hit)
+317 http cache @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz 0ms (cache hit)
+318 http cache @corex/deepmerge@https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-4.0.43.tgz 0ms (cache hit)
+319 http cache @radix-ui/react-label@https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.7.tgz 0ms (cache hit)
+320 http cache @radix-ui/react-separator@https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.7.tgz 0ms (cache hit)
+321 http cache @radix-ui/react-select@https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.2.6.tgz 0ms (cache hit)
+322 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz 0ms (cache hit)
+323 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.1.14.tgz 0ms (cache hit)
+324 http cache @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.2.6.tgz 0ms (cache hit)
+325 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.24.tgz 0ms (cache hit)
+326 http cache @radix-ui/react-tabs@https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.13.tgz 0ms (cache hit)
+327 http cache zod@https://registry.npmjs.org/zod/-/zod-4.1.12.tgz 0ms (cache hit)
+328 http cache @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz 0ms (cache hit)
+329 http cache @radix-ui/react-navigation-menu@https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.14.tgz 0ms (cache hit)
+330 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz 0ms (cache hit)
+331 http cache @radix-ui/react-tooltip@https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.8.tgz 0ms (cache hit)
+332 http cache @radix-ui/react-dropdown-menu@https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.16.tgz 0ms (cache hit)
+333 http cache @radix-ui/react-accordion@https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.12.tgz 0ms (cache hit)
+334 http cache @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz 0ms (cache hit)
+335 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+336 http cache @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz 0ms (cache hit)
+337 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.14.tgz 0ms (cache hit)
+338 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.3.1.tgz 0ms (cache hit)
+339 http cache react@https://registry.npmjs.org/react/-/react-19.1.0.tgz 0ms (cache hit)
+340 http cache tw-animate-css@https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.4.0.tgz 0ms (cache hit)
+341 http cache prettier@https://registry.npmjs.org/prettier/-/prettier-3.6.2.tgz 0ms (cache hit)
+342 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz 0ms (cache hit)
+343 http cache sonner@https://registry.npmjs.org/sonner/-/sonner-2.0.7.tgz 0ms (cache hit)
+344 http cache class-variance-authority@https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz 0ms (cache hit)
+345 http cache next@https://registry.npmjs.org/next/-/next-15.5.5.tgz 0ms (cache hit)
+346 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.21.tgz 0ms (cache hit)
+347 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+348 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.545.0.tgz 0ms (cache hit)
+349 http cache lenis@https://registry.npmjs.org/lenis/-/lenis-1.3.11.tgz 0ms (cache hit)
+350 http cache gsap@https://registry.npmjs.org/gsap/-/gsap-3.13.0.tgz 0ms (cache hit)
+351 http cache next-themes@https://registry.npmjs.org/next-themes/-/next-themes-0.4.6.tgz 0ms (cache hit)
+352 http cache embla-carousel-react@https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-8.6.0.tgz 0ms (cache hit)
+353 http cache query-string@https://registry.npmjs.org/query-string/-/query-string-9.3.1.tgz 0ms (cache hit)
+354 http cache eslint-config-prettier@https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz 0ms (cache hit)
+355 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-13.5.11.tgz 0ms (cache hit)
+356 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+357 silly tarball no local data for @radix-ui/react-roving-focus@https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.11.tgz. Extracting by manifest.
+358 silly tarball no local data for @radix-ui/react-menu@https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.16.tgz. Extracting by manifest.
+359 silly tarball no local data for @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.12.tgz. Extracting by manifest.
+360 silly tarball no local data for next-sitemap@https://registry.npmjs.org/next-sitemap/-/next-sitemap-4.2.3.tgz. Extracting by manifest.
+361 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz. Extracting by manifest.
+362 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.37.0.tgz 0ms (cache hit)
+363 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-15.5.5.tgz 0ms (cache hit)
+364 silly tarball no local data for @corex/deepmerge@https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-4.0.43.tgz. Extracting by manifest.
+365 silly tarball no local data for @radix-ui/react-tabs@https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.13.tgz. Extracting by manifest.
+366 silly tarball no local data for @radix-ui/react-navigation-menu@https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.14.tgz. Extracting by manifest.
+367 silly tarball no local data for @radix-ui/react-tooltip@https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.8.tgz. Extracting by manifest.
+368 silly tarball no local data for @radix-ui/react-dropdown-menu@https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.16.tgz. Extracting by manifest.
+369 silly tarball no local data for @radix-ui/react-accordion@https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.12.tgz. Extracting by manifest.
+370 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz. Extracting by manifest.
+371 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-13.5.11.tgz. Extracting by manifest.
+372 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 639ms
+373 silly audit report {}
+374 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.13.tgz 653ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz 653ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.11.tgz 656ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.12.tgz 657ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-4.0.43.tgz 674ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.16.tgz 677ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.14.tgz 677ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.16.tgz 752ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.8.tgz 762ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz 767ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/next-sitemap/-/next-sitemap-4.2.3.tgz 779ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.12.tgz 1004ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-13.5.11.tgz 1590ms (cache miss)
+387 silly ADD node_modules/@corex/deepmerge
+388 silly ADD node_modules/@radix-ui/react-roving-focus
+389 silly ADD node_modules/@radix-ui/react-menu
+390 silly ADD node_modules/@radix-ui/react-presence
+391 silly ADD node_modules/@radix-ui/react-collapsible
+392 silly ADD node_modules/next-sitemap
+393 silly ADD node_modules/next-sitemap/node_modules/@next/env
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD
+406 silly ADD
+407 silly ADD
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly CHANGE node_modules/@types/node
+460 silly CHANGE node_modules/@radix-ui/react-label
+461 silly CHANGE node_modules/@radix-ui/react-separator
+462 silly CHANGE node_modules/@tailwindcss/postcss
+463 silly CHANGE node_modules/@types/react
+464 silly CHANGE node_modules/@radix-ui/react-switch
+465 silly CHANGE node_modules/@radix-ui/react-select
+466 silly CHANGE node_modules/@types/react-dom
+467 silly CHANGE node_modules/@radix-ui/react-tabs
+468 silly CHANGE node_modules/framer-motion
+469 silly CHANGE node_modules/zod
+470 silly CHANGE node_modules/@eslint/eslintrc
+471 silly CHANGE node_modules/@radix-ui/react-tooltip
+472 silly CHANGE node_modules/@radix-ui/react-navigation-menu
+473 silly CHANGE node_modules/@radix-ui/react-slot
+474 silly CHANGE node_modules/@radix-ui/react-dropdown-menu
+475 silly CHANGE node_modules/tailwind-merge
+476 silly CHANGE node_modules/@radix-ui/react-accordion
+477 silly CHANGE node_modules/@radix-ui/react-dialog
+478 silly CHANGE node_modules/react
+479 silly CHANGE node_modules/typescript
+480 silly CHANGE node_modules/react-dom
+481 silly CHANGE node_modules/prettier
+482 silly CHANGE node_modules/tw-animate-css
+483 silly CHANGE node_modules/tailwindcss
+484 silly CHANGE node_modules/sonner
+485 silly CHANGE node_modules/query-string
+486 silly CHANGE node_modules/next-themes
+487 silly CHANGE node_modules/gsap
+488 silly CHANGE node_modules/next
+489 silly ADD node_modules/next/node_modules/postcss
+490 silly CHANGE node_modules/class-variance-authority
+491 silly CHANGE node_modules/clsx
+492 silly CHANGE node_modules/lucide-react
+493 silly CHANGE node_modules/lenis
+494 silly CHANGE node_modules/eslint-config-next
+495 silly CHANGE node_modules/embla-carousel-react
+496 silly CHANGE node_modules/eslint-config-prettier
+497 silly CHANGE node_modules/eslint
+498 verbose cwd /Users/shreyashjain/code_repos/vacademy_landing_page
+499 verbose os Darwin 24.5.0
+500 verbose node v22.17.1
+501 verbose npm  v10.9.2
+502 verbose exit 0
+503 info ok

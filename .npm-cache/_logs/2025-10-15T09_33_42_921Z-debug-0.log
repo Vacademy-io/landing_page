@@ -1,0 +1,1197 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/shreyashjain/code_repos/vacademy_landing_page/.npmrc
+5 silly config load:file:/Users/shreyashjain/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @radix-ui/react-slot @radix-ui/react-label @radix-ui/react-select @radix-ui/react-separator @radix-ui/react-switch
+8 verbose argv "install" "@radix-ui/react-slot" "@radix-ui/react-label" "@radix-ui/react-select" "@radix-ui/react-separator" "@radix-ui/react-switch"
+9 verbose logfile logs-max:10 dir:/Users/shreyashjain/code_repos/vacademy_landing_page/.npm-cache/_logs/2025-10-15T09_33_42_921Z-
+10 verbose logfile /Users/shreyashjain/code_repos/vacademy_landing_page/.npm-cache/_logs/2025-10-15T09_33_42_921Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @radix-ui/react-slot@^1.2.3
+15 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot cache-miss
+16 http cache https://registry.npmjs.org/@radix-ui%2freact-slot 26ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot set size:351089 disposed:false
+18 silly fetch manifest @types/react@^19
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freact 201ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2504314 disposed:false
+22 silly fetch manifest react@19.1.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 66ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:6165345 disposed:false
+26 silly fetch manifest @radix-ui/react-label@*
+27 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-label cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-label 100ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-label set size:undefined disposed:false
+30 silly fetch manifest @types/react-dom@^19
+31 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 59ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:426214 disposed:false
+34 silly fetch manifest react-dom@19.1.0
+35 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/react-dom 55ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8036948 disposed:false
+38 silly fetch manifest @radix-ui/react-select@*
+39 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-select cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-select 107ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-select set size:undefined disposed:false
+42 silly fetch manifest @radix-ui/react-separator@*
+43 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-separator cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-separator 82ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-separator set size:undefined disposed:false
+46 silly fetch manifest @radix-ui/react-switch@*
+47 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-switch cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-switch 111ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-switch set size:undefined disposed:false
+50 silly placeDep ROOT @radix-ui/react-label@2.1.7 OK for: vacademy_landing_page@0.1.0 want: *
+51 silly placeDep ROOT @radix-ui/react-select@2.2.6 OK for: vacademy_landing_page@0.1.0 want: *
+52 silly placeDep ROOT @radix-ui/react-separator@1.1.7 OK for: vacademy_landing_page@0.1.0 want: *
+53 silly placeDep ROOT @radix-ui/react-slot@1.2.3 REPLACE for: vacademy_landing_page@0.1.0 want: ^1.2.3
+54 silly placeDep ROOT @radix-ui/react-switch@1.2.6 OK for: vacademy_landing_page@0.1.0 want: *
+55 silly fetch manifest @radix-ui/react-primitive@2.1.3
+56 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive cache-miss
+57 silly fetch manifest aria-hidden@^1.2.4
+58 silly packumentCache full:https://registry.npmjs.org/aria-hidden cache-miss
+59 silly fetch manifest @radix-ui/number@1.1.1
+60 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fnumber cache-miss
+61 silly fetch manifest @radix-ui/react-id@1.1.1
+62 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-id cache-miss
+63 silly fetch manifest @radix-ui/primitive@1.1.3
+64 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fprimitive cache-miss
+65 silly fetch manifest react-remove-scroll@^2.6.3
+66 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll cache-miss
+67 silly fetch manifest @radix-ui/react-popper@1.2.8
+68 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-popper cache-miss
+69 silly fetch manifest @radix-ui/react-portal@1.1.9
+70 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal cache-miss
+71 silly fetch manifest @radix-ui/react-context@1.1.2
+72 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-context cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-primitive 82ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive set size:undefined disposed:false
+75 silly fetch manifest @radix-ui/react-direction@1.1.1
+76 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-direction cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/aria-hidden 148ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/aria-hidden set size:undefined disposed:false
+79 silly fetch manifest @radix-ui/react-collection@1.1.7
+80 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collection cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-direction 67ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-direction set size:undefined disposed:false
+83 silly fetch manifest @radix-ui/react-focus-scope@1.1.7
+84 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2fnumber 168ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fnumber set size:undefined disposed:false
+87 silly fetch manifest @radix-ui/react-focus-guards@1.1.3
+88 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-guards cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-id 170ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-id set size:undefined disposed:false
+91 silly fetch manifest @radix-ui/react-use-previous@1.1.1
+92 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-previous cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-context 181ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-context set size:undefined disposed:false
+95 silly fetch manifest @radix-ui/react-visually-hidden@1.2.3
+96 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-visually-hidden cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll 194ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll set size:undefined disposed:false
+99 silly fetch manifest @radix-ui/react-use-callback-ref@1.1.1
+100 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-portal 218ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal set size:undefined disposed:false
+103 silly fetch manifest @radix-ui/react-dismissable-layer@1.1.11
+104 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-guards 67ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-guards set size:undefined disposed:false
+107 silly fetch manifest @radix-ui/react-use-layout-effect@1.1.1
+108 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2fprimitive 237ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2fprimitive set size:undefined disposed:false
+111 silly fetch manifest @radix-ui/react-use-controllable-state@1.2.2
+112 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-scope 95ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope set size:undefined disposed:false
+115 silly fetch manifest @radix-ui/react-use-size@1.1.1
+116 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-size cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-collection 101ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collection set size:undefined disposed:false
+119 silly fetch manifest @radix-ui/react-use-previous@1.1.1
+120 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-previous cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-previous 92ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-previous set size:undefined disposed:false
+123 silly fetch manifest @radix-ui/react-use-controllable-state@1.2.2
+124 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-visually-hidden 100ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-visually-hidden set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref 90ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-callback-ref set size:undefined disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-size 68ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-size set size:undefined disposed:false
+131 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer 99ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer set size:undefined disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-previous 71ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-previous set size:undefined disposed:false
+135 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state 96ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state set size:undefined disposed:false
+137 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect 101ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-layout-effect set size:undefined disposed:false
+139 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state 101ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-controllable-state set size:undefined disposed:false
+141 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-popper 1240ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-popper set size:undefined disposed:false
+143 silly fetch manifest @types/react@*
+144 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+145 http cache https://registry.npmjs.org/@types%2freact 3ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2504314 disposed:false
+147 silly fetch manifest @types/react-dom@*
+148 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-hit
+149 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+150 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+151 http cache https://registry.npmjs.org/react 6ms (cache hit)
+152 silly packumentCache full:https://registry.npmjs.org/react set size:6165345 disposed:false
+153 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+154 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+155 http cache https://registry.npmjs.org/react-dom 7ms (cache hit)
+156 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8036948 disposed:false
+157 silly placeDep ROOT @radix-ui/react-primitive@2.1.3 OK for: @radix-ui/react-label@2.1.7 want: 2.1.3
+158 silly placeDep ROOT @radix-ui/number@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+159 silly placeDep ROOT @radix-ui/primitive@1.1.3 OK for: @radix-ui/react-select@2.2.6 want: 1.1.3
+160 silly placeDep ROOT @radix-ui/react-collection@1.1.7 OK for: @radix-ui/react-select@2.2.6 want: 1.1.7
+161 silly placeDep ROOT @radix-ui/react-context@1.1.2 OK for: @radix-ui/react-select@2.2.6 want: 1.1.2
+162 silly placeDep ROOT @radix-ui/react-direction@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+163 silly placeDep ROOT @radix-ui/react-dismissable-layer@1.1.11 OK for: @radix-ui/react-select@2.2.6 want: 1.1.11
+164 silly placeDep ROOT @radix-ui/react-focus-guards@1.1.3 OK for: @radix-ui/react-select@2.2.6 want: 1.1.3
+165 silly placeDep ROOT @radix-ui/react-focus-scope@1.1.7 OK for: @radix-ui/react-select@2.2.6 want: 1.1.7
+166 silly placeDep ROOT @radix-ui/react-id@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+167 silly placeDep ROOT @radix-ui/react-popper@1.2.8 OK for: @radix-ui/react-select@2.2.6 want: 1.2.8
+168 silly placeDep ROOT @radix-ui/react-portal@1.1.9 OK for: @radix-ui/react-select@2.2.6 want: 1.1.9
+169 silly placeDep ROOT @radix-ui/react-use-callback-ref@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+170 silly placeDep ROOT @radix-ui/react-use-controllable-state@1.2.2 OK for: @radix-ui/react-select@2.2.6 want: 1.2.2
+171 silly placeDep ROOT @radix-ui/react-use-layout-effect@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+172 silly placeDep ROOT @radix-ui/react-use-previous@1.1.1 OK for: @radix-ui/react-select@2.2.6 want: 1.1.1
+173 silly placeDep ROOT @radix-ui/react-visually-hidden@1.2.3 OK for: @radix-ui/react-select@2.2.6 want: 1.2.3
+174 silly placeDep ROOT aria-hidden@1.2.6 OK for: @radix-ui/react-select@2.2.6 want: ^1.2.4
+175 silly placeDep ROOT react-remove-scroll@2.7.1 OK for: @radix-ui/react-select@2.2.6 want: ^2.6.3
+176 silly fetch manifest @radix-ui/react-use-escape-keydown@1.1.1
+177 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown cache-miss
+178 silly fetch manifest @radix-ui/rect@1.1.1
+179 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2frect cache-miss
+180 silly fetch manifest @radix-ui/react-arrow@1.1.7
+181 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-arrow cache-miss
+182 silly fetch manifest @floating-ui/react-dom@^2.0.0
+183 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2freact-dom cache-miss
+184 silly fetch manifest @radix-ui/react-use-rect@1.1.1
+185 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-rect cache-miss
+186 silly fetch manifest @radix-ui/react-use-effect-event@0.0.2
+187 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-effect-event cache-miss
+188 silly fetch manifest react-remove-scroll-bar@^2.3.7
+189 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll-bar cache-miss
+190 silly fetch manifest react-style-singleton@^2.2.3
+191 silly packumentCache full:https://registry.npmjs.org/react-style-singleton cache-miss
+192 silly fetch manifest use-callback-ref@^1.3.3
+193 silly packumentCache full:https://registry.npmjs.org/use-callback-ref cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar 58ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/react-remove-scroll-bar set size:undefined disposed:false
+196 silly fetch manifest use-sidecar@^1.1.3
+197 silly packumentCache full:https://registry.npmjs.org/use-sidecar cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/react-style-singleton 62ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/react-style-singleton set size:undefined disposed:false
+200 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown 72ms (cache miss)
+201 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown set size:undefined disposed:false
+202 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2frect 76ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2frect set size:undefined disposed:false
+204 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-rect 77ms (cache miss)
+205 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-rect set size:undefined disposed:false
+206 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-effect-event 79ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-effect-event set size:undefined disposed:false
+208 http fetch GET 200 https://registry.npmjs.org/use-callback-ref 93ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/use-callback-ref set size:undefined disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2freact-dom 105ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2freact-dom set size:undefined disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/use-sidecar 53ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/use-sidecar set size:undefined disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-arrow 113ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-arrow set size:undefined disposed:false
+216 silly placeDep ROOT @radix-ui/react-use-escape-keydown@1.1.1 OK for: @radix-ui/react-dismissable-layer@1.1.11 want: 1.1.1
+217 silly placeDep ROOT @floating-ui/react-dom@2.1.6 OK for: @radix-ui/react-popper@1.2.8 want: ^2.0.0
+218 silly placeDep ROOT @radix-ui/react-arrow@1.1.7 OK for: @radix-ui/react-popper@1.2.8 want: 1.1.7
+219 silly placeDep ROOT @radix-ui/react-use-rect@1.1.1 OK for: @radix-ui/react-popper@1.2.8 want: 1.1.1
+220 silly placeDep ROOT @radix-ui/react-use-size@1.1.1 OK for: @radix-ui/react-popper@1.2.8 want: 1.1.1
+221 silly placeDep ROOT @radix-ui/rect@1.1.1 OK for: @radix-ui/react-popper@1.2.8 want: 1.1.1
+222 silly fetch manifest @floating-ui/dom@^1.7.4
+223 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fdom cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fdom 73ms (cache miss)
+225 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fdom set size:undefined disposed:false
+226 silly placeDep ROOT @floating-ui/dom@1.7.4 OK for: @floating-ui/react-dom@2.1.6 want: ^1.7.4
+227 silly fetch manifest @floating-ui/core@^1.7.3
+228 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fcore cache-miss
+229 silly fetch manifest @floating-ui/utils@^0.2.10
+230 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2futils cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2futils 68ms (cache miss)
+232 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2futils set size:undefined disposed:false
+233 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fcore 69ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fcore set size:undefined disposed:false
+235 silly placeDep ROOT @floating-ui/core@1.7.3 OK for: @floating-ui/dom@1.7.4 want: ^1.7.3
+236 silly placeDep ROOT @floating-ui/utils@0.2.10 OK for: @floating-ui/dom@1.7.4 want: ^0.2.10
+237 silly placeDep ROOT @radix-ui/react-use-effect-event@0.0.2 OK for: @radix-ui/react-use-controllable-state@1.2.2 want: 0.0.2
+238 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+239 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+240 http cache https://registry.npmjs.org/react 7ms (cache hit)
+241 silly packumentCache full:https://registry.npmjs.org/react set size:6165345 disposed:false
+242 silly placeDep ROOT react-remove-scroll-bar@2.3.8 OK for: react-remove-scroll@2.7.1 want: ^2.3.7
+243 silly placeDep ROOT react-style-singleton@2.2.3 OK for: react-remove-scroll@2.7.1 want: ^2.2.3
+244 silly placeDep ROOT use-callback-ref@1.3.3 OK for: react-remove-scroll@2.7.1 want: ^1.3.3
+245 silly placeDep ROOT use-sidecar@1.1.3 OK for: react-remove-scroll@2.7.1 want: ^1.1.3
+246 silly fetch manifest react-style-singleton@^2.2.2
+247 silly packumentCache full:https://registry.npmjs.org/react-style-singleton cache-miss
+248 silly fetch manifest get-nonce@^1.0.0
+249 silly packumentCache full:https://registry.npmjs.org/get-nonce cache-miss
+250 silly fetch manifest detect-node-es@^1.1.0
+251 silly packumentCache full:https://registry.npmjs.org/detect-node-es cache-miss
+252 http cache https://registry.npmjs.org/react-style-singleton 2ms (cache hit)
+253 silly packumentCache full:https://registry.npmjs.org/react-style-singleton set size:33682 disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/get-nonce 44ms (cache miss)
+255 silly packumentCache full:https://registry.npmjs.org/get-nonce set size:undefined disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/detect-node-es 49ms (cache miss)
+257 silly packumentCache full:https://registry.npmjs.org/detect-node-es set size:undefined disposed:false
+258 silly placeDep ROOT get-nonce@1.0.1 OK for: react-style-singleton@2.2.3 want: ^1.0.0
+259 silly placeDep ROOT detect-node-es@1.1.0 OK for: use-sidecar@1.1.3 want: ^1.1.0
+260 silly reify moves {}
+261 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-wasm32-wasi
+262 silly reify mark deleted [
+262 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-wasm32-wasi'
+262 silly reify ]
+263 silly audit bulk request {
+263 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+263 silly audit   '@emnapi/core': [ '1.5.0' ],
+263 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+263 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+263 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+263 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+263 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+263 silly audit   '@eslint/config-array': [ '0.21.0' ],
+263 silly audit   '@eslint/config-helpers': [ '0.4.0' ],
+263 silly audit   '@eslint/core': [ '0.16.0' ],
+263 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+263 silly audit   '@eslint/js': [ '9.37.0' ],
+263 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+263 silly audit   '@eslint/plugin-kit': [ '0.4.0' ],
+263 silly audit   '@humanfs/core': [ '0.19.1' ],
+263 silly audit   '@humanfs/node': [ '0.16.7' ],
+263 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+263 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+263 silly audit   '@img/colour': [ '1.0.0' ],
+263 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+263 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+263 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+263 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+263 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+263 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+263 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+263 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+263 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+263 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+263 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+263 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+263 silly audit   '@next/env': [ '15.5.5' ],
+263 silly audit   '@next/eslint-plugin-next': [ '15.5.5' ],
+263 silly audit   '@next/swc-darwin-arm64': [ '15.5.5' ],
+263 silly audit   '@next/swc-darwin-x64': [ '15.5.5' ],
+263 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.5' ],
+263 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.5' ],
+263 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.5' ],
+263 silly audit   '@next/swc-linux-x64-musl': [ '15.5.5' ],
+263 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.5' ],
+263 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.5' ],
+263 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+263 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+263 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+263 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+263 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+263 silly audit   '@rtsao/scc': [ '1.1.0' ],
+263 silly audit   '@rushstack/eslint-patch': [ '1.14.0' ],
+263 silly audit   '@swc/helpers': [ '0.5.15' ],
+263 silly audit   '@tailwindcss/node': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.14' ],
+263 silly audit   '@tailwindcss/postcss': [ '4.1.14' ],
+263 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+263 silly audit   '@types/estree': [ '1.0.8' ],
+263 silly audit   '@types/json-schema': [ '7.0.15' ],
+263 silly audit   '@types/json5': [ '0.0.29' ],
+263 silly audit   '@types/node': [ '20.19.21' ],
+263 silly audit   '@types/react': [ '19.2.2' ],
+263 silly audit   '@types/react-dom': [ '19.2.2' ],
+263 silly audit   '@typescript-eslint/eslint-plugin': [ '8.46.1' ],
+263 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+263 silly audit   '@typescript-eslint/parser': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/project-service': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/scope-manager': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/type-utils': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/types': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/typescript-estree': [ '8.46.1' ],
+263 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+263 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+263 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+263 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+263 silly audit   '@typescript-eslint/utils': [ '8.46.1' ],
+263 silly audit   '@typescript-eslint/visitor-keys': [ '8.46.1' ],
+263 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+263 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+263 silly audit   acorn: [ '8.15.0' ],
+263 silly audit   'acorn-jsx': [ '5.3.2' ],
+263 silly audit   ajv: [ '6.12.6' ],
+263 silly audit   'ansi-styles': [ '4.3.0' ],
+263 silly audit   argparse: [ '2.0.1' ],
+263 silly audit   'aria-query': [ '5.3.2' ],
+263 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+263 silly audit   'array-includes': [ '3.1.9' ],
+263 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+263 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+263 silly audit   'array.prototype.flat': [ '1.3.3' ],
+263 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+263 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+263 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+263 silly audit   'ast-types-flow': [ '0.0.8' ],
+263 silly audit   'async-function': [ '1.0.0' ],
+263 silly audit   'available-typed-arrays': [ '1.0.7' ],
+263 silly audit   'axe-core': [ '4.11.0' ],
+263 silly audit   'axobject-query': [ '4.1.0' ],
+263 silly audit   'balanced-match': [ '1.0.2' ],
+263 silly audit   braces: [ '3.0.3' ],
+263 silly audit   'call-bind': [ '1.0.8' ],
+263 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+263 silly audit   'call-bound': [ '1.0.4' ],
+263 silly audit   callsites: [ '3.1.0' ],
+263 silly audit   'caniuse-lite': [ '1.0.30001750' ],
+263 silly audit   chalk: [ '4.1.2' ],
+263 silly audit   chownr: [ '3.0.0' ],
+263 silly audit   'class-variance-authority': [ '0.7.1' ],
+263 silly audit   'client-only': [ '0.0.1' ],
+263 silly audit   clsx: [ '2.1.1' ],
+263 silly audit   'color-convert': [ '2.0.1' ],
+263 silly audit   'color-name': [ '1.1.4' ],
+263 silly audit   'concat-map': [ '0.0.1' ],
+263 silly audit   'cross-spawn': [ '7.0.6' ],
+263 silly audit   csstype: [ '3.1.3' ],
+263 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+263 silly audit   'data-view-buffer': [ '1.0.2' ],
+263 silly audit   'data-view-byte-length': [ '1.0.2' ],
+263 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+263 silly audit   debug: [ '4.4.3', '3.2.7' ],
+263 silly audit   'decode-uri-component': [ '0.4.1' ],
+263 silly audit   'deep-is': [ '0.1.4' ],
+263 silly audit   'define-data-property': [ '1.1.4' ],
+263 silly audit   'define-properties': [ '1.2.1' ],
+263 silly audit   'detect-libc': [ '2.1.2' ],
+263 silly audit   doctrine: [ '2.1.0' ],
+263 silly audit   'dunder-proto': [ '1.0.1' ],
+263 silly audit   'embla-carousel': [ '8.6.0' ],
+263 silly audit   'embla-carousel-react': [ '8.6.0' ],
+263 silly audit   'embla-carousel-reactive-utils': [ '8.6.0' ],
+263 silly audit   'emoji-regex': [ '9.2.2' ],
+263 silly audit   'enhanced-resolve': [ '5.18.3' ],
+263 silly audit   'es-abstract': [ '1.24.0' ],
+263 silly audit   'es-define-property': [ '1.0.1' ],
+263 silly audit   'es-errors': [ '1.3.0' ],
+263 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+263 silly audit   'es-object-atoms': [ '1.1.1' ],
+263 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+263 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+263 silly audit   'es-to-primitive': [ '1.3.0' ],
+263 silly audit   'escape-string-regexp': [ '4.0.0' ],
+263 silly audit   eslint: [ '9.37.0' ],
+263 silly audit   'eslint-config-next': [ '15.5.5' ],
+263 silly audit   'eslint-config-prettier': [ '10.1.8' ],
+263 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+263 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+263 silly audit   'eslint-module-utils': [ '2.12.1' ],
+263 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+263 silly audit   semver: [ '6.3.1', '7.7.3' ],
+263 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+263 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+263 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+263 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+263 silly audit   'eslint-scope': [ '8.4.0' ],
+263 silly audit   espree: [ '10.4.0' ],
+263 silly audit   esquery: [ '1.6.0' ],
+263 silly audit   esrecurse: [ '4.3.0' ],
+263 silly audit   estraverse: [ '5.3.0' ],
+263 silly audit   esutils: [ '2.0.3' ],
+263 silly audit   'fast-deep-equal': [ '3.1.3' ],
+263 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+263 silly audit   'fast-levenshtein': [ '2.0.6' ],
+263 silly audit   fastq: [ '1.19.1' ],
+263 silly audit   'file-entry-cache': [ '8.0.0' ],
+263 silly audit   'fill-range': [ '7.1.1' ],
+263 silly audit   'filter-obj': [ '5.1.0' ],
+263 silly audit   'find-up': [ '5.0.0' ],
+263 silly audit   'flat-cache': [ '4.0.1' ],
+263 silly audit   flatted: [ '3.3.3' ],
+263 silly audit   'for-each': [ '0.3.5' ],
+263 silly audit   'framer-motion': [ '12.23.24' ],
+263 silly audit   'function-bind': [ '1.1.2' ],
+263 silly audit   'function.prototype.name': [ '1.1.8' ],
+263 silly audit   'functions-have-names': [ '1.2.3' ],
+263 silly audit   'generator-function': [ '2.0.1' ],
+263 silly audit   'get-intrinsic': [ '1.3.0' ],
+263 silly audit   'get-proto': [ '1.0.1' ],
+263 silly audit   'get-symbol-description': [ '1.1.0' ],
+263 silly audit   'get-tsconfig': [ '4.12.0' ],
+263 silly audit   globals: [ '14.0.0' ],
+263 silly audit   globalthis: [ '1.0.4' ],
+263 silly audit   gopd: [ '1.2.0' ],
+263 silly audit   'graceful-fs': [ '4.2.11' ],
+263 silly audit   graphemer: [ '1.4.0' ],
+263 silly audit   gsap: [ '3.13.0' ],
+263 silly audit   'has-bigints': [ '1.1.0' ],
+263 silly audit   'has-flag': [ '4.0.0' ],
+263 silly audit   'has-property-descriptors': [ '1.0.2' ],
+263 silly audit   'has-proto': [ '1.2.0' ],
+263 silly audit   'has-symbols': [ '1.1.0' ],
+263 silly audit   'has-tostringtag': [ '1.0.2' ],
+263 silly audit   hasown: [ '2.0.2' ],
+263 silly audit   'import-fresh': [ '3.3.1' ],
+263 silly audit   imurmurhash: [ '0.1.4' ],
+263 silly audit   'internal-slot': [ '1.1.0' ],
+263 silly audit   'is-array-buffer': [ '3.0.5' ],
+263 silly audit   'is-async-function': [ '2.1.1' ],
+263 silly audit   'is-bigint': [ '1.1.0' ],
+263 silly audit   'is-boolean-object': [ '1.2.2' ],
+263 silly audit   'is-bun-module': [ '2.0.0' ],
+263 silly audit   'is-callable': [ '1.2.7' ],
+263 silly audit   'is-core-module': [ '2.16.1' ],
+263 silly audit   'is-data-view': [ '1.0.2' ],
+263 silly audit   'is-date-object': [ '1.1.0' ],
+263 silly audit   'is-extglob': [ '2.1.1' ],
+263 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+263 silly audit   'is-generator-function': [ '1.1.2' ],
+263 silly audit   'is-glob': [ '4.0.3' ],
+263 silly audit   'is-map': [ '2.0.3' ],
+263 silly audit   'is-negative-zero': [ '2.0.3' ],
+263 silly audit   'is-number': [ '7.0.0' ],
+263 silly audit   'is-number-object': [ '1.1.1' ],
+263 silly audit   'is-regex': [ '1.2.1' ],
+263 silly audit   'is-set': [ '2.0.3' ],
+263 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+263 silly audit   'is-string': [ '1.1.1' ],
+263 silly audit   'is-symbol': [ '1.1.1' ],
+263 silly audit   'is-typed-array': [ '1.1.15' ],
+263 silly audit   'is-weakmap': [ '2.0.2' ],
+263 silly audit   'is-weakref': [ '1.1.1' ],
+263 silly audit   'is-weakset': [ '2.0.4' ],
+263 silly audit   isarray: [ '2.0.5' ],
+263 silly audit   isexe: [ '2.0.0' ],
+263 silly audit   'iterator.prototype': [ '1.1.5' ],
+263 silly audit   jiti: [ '2.6.1' ],
+263 silly audit   'js-tokens': [ '4.0.0' ],
+263 silly audit   'js-yaml': [ '4.1.0' ],
+263 silly audit   'json-buffer': [ '3.0.1' ],
+263 silly audit   'json-schema-traverse': [ '0.4.1' ],
+263 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+263 silly audit   json5: [ '1.0.2' ],
+263 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+263 silly audit   keyv: [ '4.5.4' ],
+263 silly audit   'language-subtag-registry': [ '0.3.23' ],
+263 silly audit   'language-tags': [ '1.0.9' ],
+263 silly audit   lenis: [ '1.3.11' ],
+263 silly audit   levn: [ '0.4.1' ],
+263 silly audit   lightningcss: [ '1.30.1' ],
+263 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+263 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+263 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+263 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+263 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+263 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+263 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+263 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+263 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+263 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+263 silly audit   'locate-path': [ '6.0.0' ],
+263 silly audit   'lodash.merge': [ '4.6.2' ],
+263 silly audit   'loose-envify': [ '1.4.0' ],
+263 silly audit   'lucide-react': [ '0.545.0' ],
+263 silly audit   'magic-string': [ '0.30.19' ],
+263 silly audit   'math-intrinsics': [ '1.1.0' ],
+263 silly audit   merge2: [ '1.4.1' ],
+263 silly audit   micromatch: [ '4.0.8' ],
+263 silly audit   minimist: [ '1.2.8' ],
+263 silly audit   minipass: [ '7.1.2' ],
+263 silly audit   minizlib: [ '3.1.0' ],
+263 silly audit   'motion-dom': [ '12.23.23' ],
+263 silly audit   'motion-utils': [ '12.23.6' ],
+263 silly audit   ms: [ '2.1.3' ],
+263 silly audit   nanoid: [ '3.3.11' ],
+263 silly audit   'napi-postinstall': [ '0.3.4' ],
+263 silly audit   'natural-compare': [ '1.4.0' ],
+263 silly audit   next: [ '15.5.5' ],
+263 silly audit   'next-themes': [ '0.4.6' ],
+263 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+263 silly audit   'object-assign': [ '4.1.1' ],
+263 silly audit   'object-inspect': [ '1.13.4' ],
+263 silly audit   'object-keys': [ '1.1.1' ],
+263 silly audit   'object.assign': [ '4.1.7' ],
+263 silly audit   'object.entries': [ '1.1.9' ],
+263 silly audit   'object.fromentries': [ '2.0.8' ],
+263 silly audit   'object.groupby': [ '1.0.3' ],
+263 silly audit   'object.values': [ '1.2.1' ],
+263 silly audit   optionator: [ '0.9.4' ],
+263 silly audit   'own-keys': [ '1.0.1' ],
+263 silly audit   'p-limit': [ '3.1.0' ],
+263 silly audit   'p-locate': [ '5.0.0' ],
+263 silly audit   'parent-module': [ '1.0.1' ],
+263 silly audit   'path-exists': [ '4.0.0' ],
+263 silly audit   'path-key': [ '3.1.1' ],
+263 silly audit   'path-parse': [ '1.0.7' ],
+263 silly audit   picocolors: [ '1.1.1' ],
+263 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+263 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+263 silly audit   'prelude-ls': [ '1.2.1' ],
+263 silly audit   prettier: [ '3.6.2' ],
+263 silly audit   'prop-types': [ '15.8.1' ],
+263 silly audit   punycode: [ '2.3.1' ],
+263 silly audit   'query-string': [ '9.3.1' ],
+263 silly audit   'queue-microtask': [ '1.2.3' ],
+263 silly audit   react: [ '19.1.0' ],
+263 silly audit   'react-dom': [ '19.1.0' ],
+263 silly audit   'react-is': [ '16.13.1' ],
+263 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+263 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+263 silly audit   'resolve-from': [ '4.0.0' ],
+263 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+263 silly audit   reusify: [ '1.1.0' ],
+263 silly audit   'run-parallel': [ '1.2.0' ],
+263 silly audit   'safe-array-concat': [ '1.1.3' ],
+263 silly audit   'safe-push-apply': [ '1.0.0' ],
+263 silly audit   'safe-regex-test': [ '1.1.0' ],
+263 silly audit   scheduler: [ '0.26.0' ],
+263 silly audit   'set-function-length': [ '1.2.2' ],
+263 silly audit   'set-function-name': [ '2.0.2' ],
+263 silly audit   'set-proto': [ '1.0.0' ],
+263 silly audit   sharp: [ '0.34.4' ],
+263 silly audit   'shebang-command': [ '2.0.0' ],
+263 silly audit   'shebang-regex': [ '3.0.0' ],
+263 silly audit   'side-channel': [ '1.1.0' ],
+263 silly audit   'side-channel-list': [ '1.0.0' ],
+263 silly audit   'side-channel-map': [ '1.0.1' ],
+263 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+263 silly audit   sonner: [ '2.0.7' ],
+263 silly audit   'source-map-js': [ '1.2.1' ],
+263 silly audit   'split-on-first': [ '3.0.0' ],
+263 silly audit   'stable-hash': [ '0.0.5' ],
+263 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+263 silly audit   'string.prototype.includes': [ '2.0.1' ],
+263 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+263 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+263 silly audit   'string.prototype.trim': [ '1.2.10' ],
+263 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+263 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+263 silly audit   'strip-bom': [ '3.0.0' ],
+263 silly audit   'strip-json-comments': [ '3.1.1' ],
+263 silly audit   'styled-jsx': [ '5.1.6' ],
+263 silly audit   'supports-color': [ '7.2.0' ],
+263 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+263 silly audit   'tailwind-merge': [ '3.3.1' ],
+263 silly audit   tailwindcss: [ '4.1.14' ],
+263 silly audit   tapable: [ '2.3.0' ],
+263 silly audit   tar: [ '7.5.1' ],
+263 silly audit   tinyglobby: [ '0.2.15' ],
+263 silly audit   fdir: [ '6.5.0' ],
+263 silly audit   'to-regex-range': [ '5.0.1' ],
+263 silly audit   'ts-api-utils': [ '2.1.0' ],
+263 silly audit   'tsconfig-paths': [ '3.15.0' ],
+263 silly audit   tslib: [ '2.8.1' ],
+263 silly audit   'tw-animate-css': [ '1.4.0' ],
+263 silly audit   'type-check': [ '0.4.0' ],
+263 silly audit   'typed-array-buffer': [ '1.0.3' ],
+263 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+263 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+263 silly audit   'typed-array-length': [ '1.0.7' ],
+263 silly audit   typescript: [ '5.9.3' ],
+263 silly audit   'unbox-primitive': [ '1.1.0' ],
+263 silly audit   'undici-types': [ '6.21.0' ],
+263 silly audit   'unrs-resolver': [ '1.11.1' ],
+263 silly audit   'uri-js': [ '4.4.1' ],
+263 silly audit   which: [ '2.0.2' ],
+263 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+263 silly audit   'which-builtin-type': [ '1.2.1' ],
+263 silly audit   'which-collection': [ '1.0.2' ],
+263 silly audit   'which-typed-array': [ '1.1.19' ],
+263 silly audit   'word-wrap': [ '1.2.5' ],
+263 silly audit   yallist: [ '5.0.0' ],
+263 silly audit   'yocto-queue': [ '0.1.0' ],
+263 silly audit   zod: [ '4.1.12' ],
+263 silly audit   '@radix-ui/react-label': [ '2.1.7' ],
+263 silly audit   '@radix-ui/react-select': [ '2.2.6' ],
+263 silly audit   '@radix-ui/react-separator': [ '1.1.7' ],
+263 silly audit   '@radix-ui/react-slot': [ '1.2.3' ],
+263 silly audit   '@radix-ui/react-switch': [ '1.2.6' ],
+263 silly audit   '@radix-ui/react-primitive': [ '2.1.3' ],
+263 silly audit   '@radix-ui/number': [ '1.1.1' ],
+263 silly audit   '@radix-ui/primitive': [ '1.1.3' ],
+263 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+263 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+263 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.11' ],
+263 silly audit   '@radix-ui/react-focus-guards': [ '1.1.3' ],
+263 silly audit   '@radix-ui/react-focus-scope': [ '1.1.7' ],
+263 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-popper': [ '1.2.8' ],
+263 silly audit   '@radix-ui/react-portal': [ '1.1.9' ],
+263 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+263 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.3' ],
+263 silly audit   'aria-hidden': [ '1.2.6' ],
+263 silly audit   'react-remove-scroll': [ '2.7.1' ],
+263 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+263 silly audit   '@floating-ui/react-dom': [ '2.1.6' ],
+263 silly audit   '@radix-ui/react-arrow': [ '1.1.7' ],
+263 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+263 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+263 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+263 silly audit   '@floating-ui/dom': [ '1.7.4' ],
+263 silly audit   '@floating-ui/core': [ '1.7.3' ],
+263 silly audit   '@floating-ui/utils': [ '0.2.10' ],
+263 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+263 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+263 silly audit   'react-style-singleton': [ '2.2.3' ],
+263 silly audit   'use-callback-ref': [ '1.3.3' ],
+263 silly audit   'use-sidecar': [ '1.1.3' ],
+263 silly audit   'get-nonce': [ '1.0.1' ],
+263 silly audit   'detect-node-es': [ '1.1.0' ],
+263 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.14' ]
+263 silly audit }
+264 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-x64-msvc
+265 silly reify mark deleted [
+265 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-x64-msvc'
+265 silly reify ]
+266 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-arm64-msvc
+267 silly reify mark deleted [
+267 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-win32-arm64-msvc'
+267 silly reify ]
+268 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-musl
+269 silly reify mark deleted [
+269 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-musl'
+269 silly reify ]
+270 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-gnu
+271 silly reify mark deleted [
+271 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-x64-gnu'
+271 silly reify ]
+272 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-musl
+273 silly reify mark deleted [
+273 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-musl'
+273 silly reify ]
+274 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-gnu
+275 silly reify mark deleted [
+275 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm64-gnu'
+275 silly reify ]
+276 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm-gnueabihf
+277 silly reify mark deleted [
+277 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-linux-arm-gnueabihf'
+277 silly reify ]
+278 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-freebsd-x64
+279 silly reify mark deleted [
+279 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-freebsd-x64'
+279 silly reify ]
+280 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-darwin-x64
+281 silly reify mark deleted [
+281 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/lightningcss-darwin-x64'
+281 silly reify ]
+282 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-x64-msvc
+283 silly reify mark deleted [
+283 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+283 silly reify ]
+284 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+285 silly reify mark deleted [
+285 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+285 silly reify ]
+286 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+287 silly reify mark deleted [
+287 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+287 silly reify ]
+288 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-wasm32-wasi
+289 silly reify mark deleted [
+289 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-wasm32-wasi'
+289 silly reify ]
+290 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-musl
+291 silly reify mark deleted [
+291 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-musl'
+291 silly reify ]
+292 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-gnu
+293 silly reify mark deleted [
+293 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+293 silly reify ]
+294 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+295 silly reify mark deleted [
+295 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+295 silly reify ]
+296 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+297 silly reify mark deleted [
+297 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+297 silly reify ]
+298 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+299 silly reify mark deleted [
+299 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+299 silly reify ]
+300 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+301 silly reify mark deleted [
+301 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+301 silly reify ]
+302 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-musl
+303 silly reify mark deleted [
+303 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+303 silly reify ]
+304 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+305 silly reify mark deleted [
+305 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+305 silly reify ]
+306 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+307 silly reify mark deleted [
+307 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+307 silly reify ]
+308 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+309 silly reify mark deleted [
+309 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+309 silly reify ]
+310 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-freebsd-x64
+311 silly reify mark deleted [
+311 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-freebsd-x64'
+311 silly reify ]
+312 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-darwin-x64
+313 silly reify mark deleted [
+313 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-darwin-x64'
+313 silly reify ]
+314 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm64
+315 silly reify mark deleted [
+315 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm64'
+315 silly reify ]
+316 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm-eabi
+317 silly reify mark deleted [
+317 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@unrs/resolver-binding-android-arm-eabi'
+317 silly reify ]
+318 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-x64-msvc
+319 silly reify mark deleted [
+319 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+319 silly reify ]
+320 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+321 silly reify mark deleted [
+321 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+321 silly reify ]
+322 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-musl
+323 silly reify mark deleted [
+323 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-musl'
+323 silly reify ]
+324 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-gnu
+325 silly reify mark deleted [
+325 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+325 silly reify ]
+326 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-musl
+327 silly reify mark deleted [
+327 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+327 silly reify ]
+328 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+329 silly reify mark deleted [
+329 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+329 silly reify ]
+330 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+331 silly reify mark deleted [
+331 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+331 silly reify ]
+332 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-freebsd-x64
+333 silly reify mark deleted [
+333 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-freebsd-x64'
+333 silly reify ]
+334 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-darwin-x64
+335 silly reify mark deleted [
+335 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-darwin-x64'
+335 silly reify ]
+336 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-android-arm64
+337 silly reify mark deleted [
+337 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@tailwindcss/oxide-android-arm64'
+337 silly reify ]
+338 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-x64-msvc
+339 silly reify mark deleted [
+339 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-x64-msvc'
+339 silly reify ]
+340 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-arm64-msvc
+341 silly reify mark deleted [
+341 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-win32-arm64-msvc'
+341 silly reify ]
+342 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-musl
+343 silly reify mark deleted [
+343 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-musl'
+343 silly reify ]
+344 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-gnu
+345 silly reify mark deleted [
+345 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-x64-gnu'
+345 silly reify ]
+346 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-musl
+347 silly reify mark deleted [
+347 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-musl'
+347 silly reify ]
+348 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-gnu
+349 silly reify mark deleted [
+349 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-linux-arm64-gnu'
+349 silly reify ]
+350 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-darwin-x64
+351 silly reify mark deleted [
+351 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@next/swc-darwin-x64'
+351 silly reify ]
+352 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-x64
+353 silly reify mark deleted [
+353 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-x64'
+353 silly reify ]
+354 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-ia32
+355 silly reify mark deleted [
+355 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-ia32'
+355 silly reify ]
+356 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-arm64
+357 silly reify mark deleted [
+357 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-win32-arm64'
+357 silly reify ]
+358 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-wasm32
+359 silly reify mark deleted [
+359 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-wasm32'
+359 silly reify ]
+360 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-x64
+361 silly reify mark deleted [
+361 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-x64'
+361 silly reify ]
+362 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-arm64
+363 silly reify mark deleted [
+363 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linuxmusl-arm64'
+363 silly reify ]
+364 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-x64
+365 silly reify mark deleted [
+365 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-x64'
+365 silly reify ]
+366 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-s390x
+367 silly reify mark deleted [
+367 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-s390x'
+367 silly reify ]
+368 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-ppc64
+369 silly reify mark deleted [
+369 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-ppc64'
+369 silly reify ]
+370 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm64
+371 silly reify mark deleted [
+371 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm64'
+371 silly reify ]
+372 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm
+373 silly reify mark deleted [
+373 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-linux-arm'
+373 silly reify ]
+374 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-x64
+375 silly reify mark deleted [
+375 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-x64'
+375 silly reify ]
+376 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-arm64
+377 silly reify mark deleted [
+377 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+377 silly reify ]
+378 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-x64
+379 silly reify mark deleted [
+379 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-x64'
+379 silly reify ]
+380 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-s390x
+381 silly reify mark deleted [
+381 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-s390x'
+381 silly reify ]
+382 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-ppc64
+383 silly reify mark deleted [
+383 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-ppc64'
+383 silly reify ]
+384 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm64
+385 silly reify mark deleted [
+385 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm64'
+385 silly reify ]
+386 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm
+387 silly reify mark deleted [
+387 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-linux-arm'
+387 silly reify ]
+388 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-darwin-x64
+389 silly reify mark deleted [
+389 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-libvips-darwin-x64'
+389 silly reify ]
+390 verbose reify failed optional dependency /Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-darwin-x64
+391 silly reify mark deleted [
+391 silly reify   '/Users/shreyashjain/code_repos/vacademy_landing_page/node_modules/@img/sharp-darwin-x64'
+391 silly reify ]
+392 http cache detect-node-es@https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz 0ms (cache hit)
+393 http cache get-nonce@https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz 0ms (cache hit)
+394 http cache use-sidecar@https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz 0ms (cache hit)
+395 http cache use-callback-ref@https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz 0ms (cache hit)
+396 http cache react-style-singleton@https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz 0ms (cache hit)
+397 http cache react-remove-scroll-bar@https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz 0ms (cache hit)
+398 http cache @radix-ui/react-use-effect-event@https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz 1ms (cache hit)
+399 http cache @floating-ui/utils@https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.10.tgz 0ms (cache hit)
+400 http cache @floating-ui/dom@https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.4.tgz 0ms (cache hit)
+401 http cache @floating-ui/core@https://registry.npmjs.org/@floating-ui/core/-/core-1.7.3.tgz 0ms (cache hit)
+402 http cache @radix-ui/rect@https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.1.tgz 0ms (cache hit)
+403 http cache @radix-ui/react-use-size@https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.1.tgz 0ms (cache hit)
+404 http cache @radix-ui/react-use-rect@https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.1.tgz 0ms (cache hit)
+405 http cache @radix-ui/react-arrow@https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.7.tgz 0ms (cache hit)
+406 http cache @floating-ui/react-dom@https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.6.tgz 0ms (cache hit)
+407 http cache @radix-ui/react-use-escape-keydown@https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz 0ms (cache hit)
+408 http cache react-remove-scroll@https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.1.tgz 0ms (cache hit)
+409 http cache aria-hidden@https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz 0ms (cache hit)
+410 http cache @radix-ui/react-visually-hidden@https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.2.3.tgz 0ms (cache hit)
+411 http cache @radix-ui/react-use-previous@https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.1.tgz 0ms (cache hit)
+412 http cache @radix-ui/react-use-layout-effect@https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz 0ms (cache hit)
+413 http cache @radix-ui/react-use-callback-ref@https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz 0ms (cache hit)
+414 http cache @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz 0ms (cache hit)
+415 http cache @radix-ui/react-popper@https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.8.tgz 0ms (cache hit)
+416 http cache @radix-ui/react-id@https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz 0ms (cache hit)
+417 http cache @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz 0ms (cache hit)
+418 http cache @radix-ui/react-focus-guards@https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz 0ms (cache hit)
+419 http cache @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz 0ms (cache hit)
+420 http cache @radix-ui/react-direction@https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.1.tgz 0ms (cache hit)
+421 http cache @radix-ui/react-context@https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz 0ms (cache hit)
+422 http cache @radix-ui/react-collection@https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.7.tgz 0ms (cache hit)
+423 http cache @radix-ui/primitive@https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz 0ms (cache hit)
+424 http cache @radix-ui/number@https://registry.npmjs.org/@radix-ui/number/-/number-1.1.1.tgz 0ms (cache hit)
+425 http cache @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.2.6.tgz 0ms (cache hit)
+426 http cache @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz 0ms (cache hit)
+427 http cache @radix-ui/react-separator@https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.7.tgz 0ms (cache hit)
+428 http cache @radix-ui/react-select@https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.2.6.tgz 0ms (cache hit)
+429 http cache @radix-ui/react-label@https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.7.tgz 0ms (cache hit)
+430 http cache @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz 0ms (cache hit)
+431 silly tarball no local data for detect-node-es@https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz. Extracting by manifest.
+432 silly tarball no local data for get-nonce@https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz. Extracting by manifest.
+433 silly tarball no local data for use-sidecar@https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz. Extracting by manifest.
+434 silly tarball no local data for use-callback-ref@https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz. Extracting by manifest.
+435 silly tarball no local data for react-style-singleton@https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz. Extracting by manifest.
+436 silly tarball no local data for react-remove-scroll-bar@https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz. Extracting by manifest.
+437 silly tarball no local data for @radix-ui/react-use-effect-event@https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz. Extracting by manifest.
+438 silly tarball no local data for @floating-ui/utils@https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.10.tgz. Extracting by manifest.
+439 silly tarball no local data for @floating-ui/dom@https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.4.tgz. Extracting by manifest.
+440 silly tarball no local data for @floating-ui/core@https://registry.npmjs.org/@floating-ui/core/-/core-1.7.3.tgz. Extracting by manifest.
+441 silly tarball no local data for @radix-ui/rect@https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.1.tgz. Extracting by manifest.
+442 silly tarball no local data for @radix-ui/react-use-size@https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.1.tgz. Extracting by manifest.
+443 silly tarball no local data for @radix-ui/react-use-rect@https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.1.tgz. Extracting by manifest.
+444 silly tarball no local data for @radix-ui/react-arrow@https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.7.tgz. Extracting by manifest.
+445 silly tarball no local data for @floating-ui/react-dom@https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.6.tgz. Extracting by manifest.
+446 silly tarball no local data for @radix-ui/react-use-escape-keydown@https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz. Extracting by manifest.
+447 silly tarball no local data for aria-hidden@https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz. Extracting by manifest.
+448 silly tarball no local data for @radix-ui/react-use-previous@https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.1.tgz. Extracting by manifest.
+449 silly tarball no local data for @radix-ui/react-use-layout-effect@https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz. Extracting by manifest.
+450 silly tarball no local data for @radix-ui/react-use-callback-ref@https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz. Extracting by manifest.
+451 silly tarball no local data for @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz. Extracting by manifest.
+452 silly tarball no local data for @radix-ui/react-popper@https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.8.tgz. Extracting by manifest.
+453 silly tarball no local data for react-remove-scroll@https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.1.tgz. Extracting by manifest.
+454 silly tarball no local data for @radix-ui/react-visually-hidden@https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.2.3.tgz. Extracting by manifest.
+455 silly tarball no local data for @radix-ui/react-id@https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz. Extracting by manifest.
+456 silly tarball no local data for @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz. Extracting by manifest.
+457 silly tarball no local data for @radix-ui/react-focus-guards@https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz. Extracting by manifest.
+458 silly tarball no local data for @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz. Extracting by manifest.
+459 silly tarball no local data for @radix-ui/react-direction@https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.1.tgz. Extracting by manifest.
+460 silly tarball no local data for @radix-ui/react-context@https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz. Extracting by manifest.
+461 silly tarball no local data for @radix-ui/react-collection@https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.7.tgz. Extracting by manifest.
+462 silly tarball no local data for @radix-ui/number@https://registry.npmjs.org/@radix-ui/number/-/number-1.1.1.tgz. Extracting by manifest.
+463 silly tarball no local data for @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.2.6.tgz. Extracting by manifest.
+464 silly tarball no local data for @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz. Extracting by manifest.
+465 silly tarball no local data for @radix-ui/react-separator@https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.7.tgz. Extracting by manifest.
+466 silly tarball no local data for @radix-ui/primitive@https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz. Extracting by manifest.
+467 silly tarball no local data for @radix-ui/react-select@https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.2.6.tgz. Extracting by manifest.
+468 silly tarball no local data for @radix-ui/react-label@https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.7.tgz. Extracting by manifest.
+469 silly tarball no local data for @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz. Extracting by manifest.
+470 http fetch GET 200 https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz 52ms (cache miss)
+471 http fetch GET 200 https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz 57ms (cache miss)
+472 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz 57ms (cache miss)
+473 http fetch GET 200 https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz 61ms (cache miss)
+474 http fetch GET 200 https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz 61ms (cache miss)
+475 http fetch GET 200 https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz 64ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz 77ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.10.tgz 77ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz 111ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.1.tgz 119ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz 119ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz 128ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz 128ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.8.tgz 144ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.1.tgz 161ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz 167ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.4.tgz 170ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.2.3.tgz 174ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/@floating-ui/core/-/core-1.7.3.tgz 175ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz 188ms (cache miss)
+490 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.1.tgz 188ms (cache miss)
+491 http fetch GET 200 https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.1.tgz 188ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz 198ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz 206ms (cache miss)
+494 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.7.tgz 213ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.1.tgz 213ms (cache miss)
+496 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz 217ms (cache miss)
+497 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.1.tgz 217ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz 221ms (cache miss)
+499 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.7.tgz 242ms (cache miss)
+500 http fetch GET 200 https://registry.npmjs.org/@radix-ui/number/-/number-1.1.1.tgz 243ms (cache miss)
+501 http fetch GET 200 https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz 256ms (cache miss)
+502 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.7.tgz 258ms (cache miss)
+503 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.2.6.tgz 268ms (cache miss)
+504 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.7.tgz 268ms (cache miss)
+505 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz 272ms (cache miss)
+506 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz 282ms (cache miss)
+507 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 304ms
+508 silly audit report {}
+509 http fetch GET 200 https://registry.npmjs.org/@floating-ui/react-dom/-/react-dom-2.1.6.tgz 296ms (cache miss)
+510 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.2.6.tgz 297ms (cache miss)
+511 silly ADD node_modules/detect-node-es
+512 silly ADD node_modules/get-nonce
+513 silly ADD node_modules/use-sidecar
+514 silly ADD node_modules/use-callback-ref
+515 silly ADD node_modules/react-style-singleton
+516 silly ADD node_modules/react-remove-scroll-bar
+517 silly ADD node_modules/@radix-ui/react-use-effect-event
+518 silly ADD node_modules/@floating-ui/utils
+519 silly ADD node_modules/@floating-ui/core
+520 silly ADD node_modules/@floating-ui/dom
+521 silly ADD node_modules/@radix-ui/rect
+522 silly ADD node_modules/@radix-ui/react-use-size
+523 silly ADD node_modules/@radix-ui/react-use-rect
+524 silly ADD node_modules/@radix-ui/react-arrow
+525 silly ADD node_modules/@floating-ui/react-dom
+526 silly ADD node_modules/@radix-ui/react-use-escape-keydown
+527 silly ADD node_modules/react-remove-scroll
+528 silly ADD node_modules/aria-hidden
+529 silly ADD node_modules/@radix-ui/react-visually-hidden
+530 silly ADD node_modules/@radix-ui/react-use-previous
+531 silly ADD node_modules/@radix-ui/react-use-layout-effect
+532 silly ADD node_modules/@radix-ui/react-use-controllable-state
+533 silly ADD node_modules/@radix-ui/react-use-callback-ref
+534 silly ADD node_modules/@radix-ui/react-portal
+535 silly ADD node_modules/@radix-ui/react-popper
+536 silly ADD node_modules/@radix-ui/react-id
+537 silly ADD node_modules/@radix-ui/react-focus-scope
+538 silly ADD node_modules/@radix-ui/react-focus-guards
+539 silly ADD node_modules/@radix-ui/react-dismissable-layer
+540 silly ADD node_modules/@radix-ui/react-direction
+541 silly ADD node_modules/@radix-ui/react-context
+542 silly ADD node_modules/@radix-ui/react-collection
+543 silly ADD node_modules/@radix-ui/primitive
+544 silly ADD node_modules/@radix-ui/number
+545 silly ADD node_modules/@radix-ui/react-primitive
+546 silly ADD node_modules/@radix-ui/react-switch
+547 silly ADD node_modules/@radix-ui/react-separator
+548 silly ADD node_modules/@radix-ui/react-select
+549 silly ADD node_modules/@radix-ui/react-label
+550 silly ADD
+551 silly ADD
+552 silly ADD
+553 silly ADD
+554 silly ADD
+555 silly ADD
+556 silly ADD
+557 silly ADD
+558 silly ADD
+559 silly ADD
+560 silly ADD
+561 silly ADD
+562 silly ADD
+563 silly ADD
+564 silly ADD
+565 silly ADD
+566 silly ADD
+567 silly ADD
+568 silly ADD
+569 silly ADD
+570 silly ADD
+571 silly ADD
+572 silly ADD
+573 silly ADD
+574 silly ADD
+575 silly ADD
+576 silly ADD
+577 silly ADD
+578 silly ADD
+579 silly ADD
+580 silly ADD
+581 silly ADD
+582 silly ADD
+583 silly ADD
+584 silly ADD
+585 silly ADD
+586 silly ADD
+587 silly ADD
+588 silly ADD
+589 silly ADD
+590 silly ADD
+591 silly ADD
+592 silly ADD
+593 silly ADD
+594 silly ADD
+595 silly ADD
+596 silly ADD
+597 silly ADD
+598 silly ADD
+599 silly ADD
+600 silly ADD
+601 silly ADD
+602 silly ADD
+603 silly ADD
+604 silly ADD
+605 silly ADD
+606 silly ADD
+607 silly ADD
+608 silly ADD
+609 silly ADD
+610 silly ADD
+611 silly ADD
+612 silly ADD
+613 silly ADD
+614 silly ADD
+615 verbose cwd /Users/shreyashjain/code_repos/vacademy_landing_page
+616 verbose os Darwin 24.5.0
+617 verbose node v22.17.1
+618 verbose npm  v10.9.2
+619 verbose exit 0
+620 info ok
