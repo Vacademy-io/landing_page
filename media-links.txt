@@ -1,0 +1,244 @@
+================================================================================
+                    VACADEMY - DISTANCE LEARNING PAGE
+                        MEDIA LINKS REFERENCE
+================================================================================
+
+Last Updated: [Date]
+Purpose: Central location for all image and video asset links used in the 
+         distance learning institutes landing page.
+
+================================================================================
+
+📌 HERO SECTION
+================================================================================
+Background Image:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning/distant-learning-hero_ndo6sh
+- Description: Main hero section background image
+- Recommended Size: 1920x1080px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+
+================================================================================
+
+📌 PRODUCT SHOWCASE SECTION
+================================================================================
+Dashboard Placeholder 1:
+- URL: [Add dashboard screenshot URL here]
+- Description: Main dashboard view (desktop mockup)
+- Recommended Size: 1440x900px
+- Format: PNG
+
+Dashboard Placeholder 2:
+- URL: [Add dashboard screenshot URL here]
+- Description: Secondary dashboard view or alternate screen
+- Recommended Size: 1440x900px
+- Format: PNG
+
+Mobile Chat Placeholder:
+- URL: [Add mobile chat screenshot URL here]
+- Description: Mobile app chat/messaging interface
+- Recommended Size: 720x1520px (9:19 ratio)
+- Format: PNG
+
+
+================================================================================
+
+📌 FEATURE CAROUSEL (Plan. Teach. Connect. Repeat Section)
+================================================================================
+Feature 1 - Lesson Planning:
+- URL: [Add lesson planning screenshot URL here]
+- Description: Lesson planning interface
+- Format: PNG
+
+Feature 2 - Class Recordings:
+- URL: [Add class recordings screenshot URL here]
+- Description: Recording interface or playback screen
+- Format: PNG
+
+Feature 3 - Student Tracking:
+- URL: [Add student tracking screenshot URL here]
+- Description: Student progress/attendance dashboard
+- Format: PNG
+
+Feature 4 - Smart Reminders:
+- URL: [Add reminders screenshot URL here]
+- Description: Notification/reminder interface
+- Format: PNG
+
+Feature 5 - Attendance Insights:
+- URL: [Add attendance insights screenshot URL here]
+- Description: Attendance analytics dashboard
+- Format: PNG
+
+Feature 6 - Unified Messaging:
+- URL: [Add messaging screenshot URL here]
+- Description: Unified messaging interface
+- Format: PNG
+
+Feature 7 - Seamless Payments:
+- URL: [Add payments screenshot URL here]
+- Description: Payment collection interface
+- Format: PNG
+
+Feature 8 - AI Lesson Suggestions:
+- URL: [Add AI suggestions screenshot URL here]
+- Description: AI-powered lesson recommendation screen
+- Format: PNG
+
+Feature 9 - Performance Analytics:
+- URL: [Add analytics screenshot URL here]
+- Description: Performance metrics dashboard
+- Format: PNG
+
+Feature 10 - Parent Reports:
+- URL: [Add parent reports screenshot URL here]
+- Description: Parent report generation interface
+- Format: PNG
+
+
+================================================================================
+
+📌 AI SUPPORT SECTION (Your Invisible Co-Teacher)
+================================================================================
+Prepare with Ease - Placeholder:
+- URL: [Add preparation illustration URL here]
+- Description: AI preparation/planning visual
+- Format: PNG/SVG
+
+Teach with Smart Support - Placeholder:
+- URL: [Add teaching support illustration URL here]
+- Description: AI teaching assistance visual
+- Format: PNG/SVG
+
+Support Every Student - Placeholder:
+- URL: [Add student support illustration URL here]
+- Description: Student analytics/support visual
+- Format: PNG/SVG
+
+Grow Your Reach - Placeholder:
+- URL: [Add growth illustration URL here]
+- Description: Growth/expansion visual
+- Format: PNG/SVG
+
+
+================================================================================
+
+📌 REALITY SECTION (Teaching online shouldn't feel like multitasking on overdrive)
+================================================================================
+Laptop-Mobile Mockup:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/f_webp/Laptop-mobile-mockup-1_zvkgt6
+- Description: Vacademy laptop and mobile interface mockup showing seamless teaching experience
+- Recommended Size: 1200x800px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+
+================================================================================
+
+📌 REAL STORIES / PROOF SECTION
+================================================================================
+Global Map Background:
+- URL: [Add world map graphic URL here]
+- Description: World map or global reach visualization
+- Format: SVG/PNG
+
+Educator Photos (if replacing placeholders):
+- Sarah C. (USA): [Add photo URL here]
+- Ahmed H. (UAE): [Add photo URL here]
+- Li Wei (Singapore): [Add photo URL here]
+- Emma B. (UK): [Add photo URL here]
+- Carlos M. (Spain): [Add photo URL here]
+- Yuki T. (Japan): [Add photo URL here]
+
+Testimonial Photos (if replacing placeholders):
+- Ravi Kumar (Singapore): [Add photo URL here]
+- Sarah Chen (United States): [Add photo URL here]
+- Ahmed Hassan (UAE): [Add photo URL here]
+- Maria Rodriguez (Spain): [Add photo URL here]
+
+
+================================================================================
+
+📌 FOOTER SECTION
+================================================================================
+Logo/Brand Mark:
+- URL: [Add Vacademy logo URL here]
+- Description: Main logo for footer
+- Recommended Size: 120x120px or vector
+- Format: SVG/PNG (with transparency)
+
+
+================================================================================
+
+📹 VIDEO ASSETS (Optional - Future Use)
+================================================================================
+Product Demo Video:
+- URL: [Add demo video URL here]
+- Description: Full product walkthrough
+- Platform: YouTube/Vimeo
+- Duration: [Add duration]
+
+Feature Showcase Video:
+- URL: [Add feature video URL here]
+- Description: Key features highlight reel
+- Platform: YouTube/Vimeo
+- Duration: [Add duration]
+
+Testimonial Video:
+- URL: [Add testimonial video URL here]
+- Description: Customer success stories
+- Platform: YouTube/Vimeo
+- Duration: [Add duration]
+
+
+================================================================================
+
+📊 ICON SETS & ILLUSTRATIONS
+================================================================================
+General Illustrations:
+- URL: [Add illustration pack URL here]
+- Description: Supporting graphics and icons
+- Format: SVG
+
+Custom Icons:
+- URL: [Add icon set URL here]
+- Description: Custom icon library
+- Format: SVG
+
+
+================================================================================
+
+🎨 BRAND ASSETS
+================================================================================
+Vacademy Short Logo:
+- Current Location: /public/images/Vacademy Short logo.png
+- URL: [Add CDN URL if moving to CDN]
+- Description: Short version of Vacademy logo
+
+
+================================================================================
+
+📝 NOTES & GUIDELINES
+================================================================================
+- All images should be optimized for web (compressed without quality loss)
+- Use WebP format where possible for better performance
+- Provide 2x versions for retina displays
+- Videos should be hosted on YouTube/Vimeo for better performance
+- Use descriptive alt text for accessibility
+- Keep a backup of all original high-resolution files
+
+
+================================================================================
+
+🔄 UPDATE LOG
+================================================================================
+[Date] - Initial file creation
+[Date] - Added hero section images
+[Date] - Updated feature carousel screenshots
+[Date] - Added testimonial photos
+
+
+================================================================================
+                            END OF DOCUMENT
+================================================================================
