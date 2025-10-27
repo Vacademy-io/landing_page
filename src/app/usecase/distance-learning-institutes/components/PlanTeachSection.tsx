@@ -7,8 +7,7 @@ import { FeatureCarousel } from "./FeatureCarousel";
 
 // 🎯 Section content - easily editable
 const sectionContent = {
-  headline: "Teach the Way You Were Meant To.",
-  subhead: "Teaching shouldn't feel like running a company.",
+  headline: "Teach the Way You Were Meant To",
   description: "With Vacademy, everything flows naturally — from lesson planning to class recordings, student tracking, and smart reminders. You focus on lessons, and we handle the rest quietly in the background.",
   primaryCta: "Explore all features",
   secondaryCta: "See it in action",
@@ -39,10 +38,7 @@ const itemVariants = {
 
 export function PlanTeachSection() {
   return (
-    <section className="bg-gradient-to-b from-[#FBFBFB] to-[#F6F8FA] py-12 md:py-24 lg:py-24">
-      {/* Visual divider */}
-      <div className="w-full h-px bg-[#E6E9EE] mb-0"></div>
-      
+    <section className="bg-[#000000] py-12 md:py-24 lg:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <div className="text-center">
           
@@ -57,25 +53,16 @@ export function PlanTeachSection() {
             {/* Headline */}
             <motion.h2
               variants={itemVariants}
-              className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] leading-tight tracking-[-0.02em]"
+              className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-[-0.02em]"
               style={{ fontFamily: 'Raleway, sans-serif' }}
             >
               {sectionContent.headline}
             </motion.h2>
 
-            {/* Subhead */}
-            <motion.p
-              variants={itemVariants}
-              className="text-lg md:text-xl text-[#4B5563] font-medium"
-              style={{ fontFamily: 'Karla, sans-serif' }}
-            >
-              {sectionContent.subhead}
-            </motion.p>
-
             {/* Description */}
             <motion.p
               variants={itemVariants}
-              className="text-base md:text-lg text-[#4B5563] leading-relaxed"
+              className="text-base md:text-lg text-gray-300 leading-relaxed"
               style={{ fontFamily: 'Karla, sans-serif', lineHeight: '1.6' }}
             >
               {sectionContent.description}

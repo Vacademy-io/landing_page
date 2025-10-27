@@ -12,9 +12,16 @@ Purpose: Central location for all image and video asset links used in the
 📌 HERO SECTION
 ================================================================================
 Background Image:
-- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning/distant-learning-hero_ndo6sh
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-hero-trasnformed/distant-learning-_hero-background_a4sgnd
 - Description: Main hero section background image
 - Recommended Size: 1920x1080px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+Hero Right Image:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-hero-trasnformed/distant-learning-_hero_gyhwk6
+- Description: Hero section right container visual element
+- Recommended Size: 800x600px
 - Format: WEBP
 - Source: Cloudinary CDN
 
@@ -23,6 +30,13 @@ Background Image:
 
 📌 PRODUCT SHOWCASE SECTION
 ================================================================================
+Laptop-Mobile Mockup Image:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_laptop-mobile-mockup-transformed/Laptop-mobile-mockup-1_ezmdlm
+- Description: Vacademy laptop and mobile interface mockup showing seamless teaching experience
+- Recommended Size: 1200x800px
+- Format: WEBP
+- Source: Cloudinary CDN
+
 Dashboard Placeholder 1:
 - URL: [Add dashboard screenshot URL here]
 - Description: Main dashboard view (desktop mockup)
@@ -46,54 +60,71 @@ Mobile Chat Placeholder:
 
 📌 FEATURE CAROUSEL (Plan. Teach. Connect. Repeat Section)
 ================================================================================
-Feature 1 - Lesson Planning:
-- URL: [Add lesson planning screenshot URL here]
-- Description: Lesson planning interface
-- Format: PNG
+Feature 1 - Customised Website:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_custom-website-transformed/Custom-website_ixlqib
+- Description: Customised website feature showcase
+- Format: WEBP
+- Source: Cloudinary CDN
 
-Feature 2 - Class Recordings:
-- URL: [Add class recordings screenshot URL here]
-- Description: Recording interface or playback screen
-- Format: PNG
+Feature 2 - Mobile App:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_mobile-app-transformed/mobile-apps_anmttc
+- Description: Mobile app feature showcase
+- Format: WEBP
+- Source: Cloudinary CDN
 
-Feature 3 - Student Tracking:
-- URL: [Add student tracking screenshot URL here]
-- Description: Student progress/attendance dashboard
-- Format: PNG
-
-Feature 4 - Smart Reminders:
-- URL: [Add reminders screenshot URL here]
-- Description: Notification/reminder interface
-- Format: PNG
-
-Feature 5 - Attendance Insights:
-- URL: [Add attendance insights screenshot URL here]
-- Description: Attendance analytics dashboard
-- Format: PNG
-
-Feature 6 - Unified Messaging:
-- URL: [Add messaging screenshot URL here]
-- Description: Unified messaging interface
-- Format: PNG
-
-Feature 7 - Seamless Payments:
+Feature 3 - Payments:
 - URL: [Add payments screenshot URL here]
 - Description: Payment collection interface
 - Format: PNG
 
-Feature 8 - AI Lesson Suggestions:
-- URL: [Add AI suggestions screenshot URL here]
-- Description: AI-powered lesson recommendation screen
+Feature 4 - Marketing Tools:
+- URL: [Add marketing tools screenshot URL here]
+- Description: Marketing tools interface
 - Format: PNG
 
-Feature 9 - Performance Analytics:
-- URL: [Add analytics screenshot URL here]
-- Description: Performance metrics dashboard
+Feature 5 - Automated Workflows:
+- URL: [Add workflows screenshot URL here]
+- Description: Automated workflows interface
 - Format: PNG
 
-Feature 10 - Parent Reports:
-- URL: [Add parent reports screenshot URL here]
-- Description: Parent report generation interface
+Feature 6 - Referral Programs:
+- URL: [Add referral programs screenshot URL here]
+- Description: Referral programs interface
+- Format: PNG
+
+Feature 7 - Membership Management:
+- URL: [Add membership management screenshot URL here]
+- Description: Membership management interface
+- Format: PNG
+
+Feature 8 - Admission and Enrolment:
+- URL: [Add admission screenshot URL here]
+- Description: Admission and enrolment interface
+- Format: PNG
+
+Feature 9 - Live Classes:
+- URL: [Add live classes screenshot URL here]
+- Description: Live classes interface
+- Format: PNG
+
+Feature 10 - Content Management:
+- URL: [Add content management screenshot URL here]
+- Description: Content management interface
+- Format: PNG
+
+Feature 11 - Assessments:
+- URL: [Add assessments screenshot URL here]
+- Description: Assessments interface
+- Format: PNG
+
+Feature 12 - Student Analytics:
+- URL: [Add student analytics screenshot URL here]
+- Description: Student analytics interface
+- Format: PNG
+
+Feature 13 - AI Tools:
+- URL: [Add AI tools screenshot URL here]
+- Description: AI tools interface
 - Format: PNG
 
 

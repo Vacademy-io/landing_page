@@ -13,101 +13,119 @@ type Feature = {
 
 const features: Feature[] = [
   {
-    title: "Website",
-    subtitle: "Your online academy. Ready to go.",
+    title: "Customised Website",
+    subtitle: "Your academy, your style.",
     description:
-      "Launch a fully integrated, no-code website where students can browse courses, enroll, and learn with ease.",
-    gradient: "from-yellow-50/40 via-yellow-100/60 to-orange-200",
-    imageSrc: "/placeholder-dashboard-1.png",
-    alt: "Website feature placeholder",
+      "Launch a fully branded, no-code website where students can browse courses, enroll, and engage with your content effortlessly.",
+    gradient: "from-yellow-50 via-yellow-100 to-orange-200",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_custom-website-transformed/Custom-website_ixlqib",
+    alt: "Customised website feature",
   },
   {
     title: "Mobile App",
-    subtitle: "Your own branded learning app.",
+    subtitle: "Your teaching, in every pocket.",
     description:
-      "Give students a familiar mobile experience with a white-labeled app that puts your teaching in their pockets.",
-    gradient: "from-purple-50/40 via-purple-100/60 to-violet-200",
-    imageSrc: "/placeholder-mobile-chat.png",
-    alt: "Mobile app feature placeholder",
-  },
-  {
-    title: "Email",
-    subtitle: "Stay connected through every inbox.",
-    description:
-      "Create and send meaningful emails that keep students informed, motivated, and excited about learning.",
-    gradient: "from-blue-50/40 via-blue-100/60 to-indigo-200",
-    imageSrc: "/placeholder-dashboard-2.png",
-    alt: "Email feature placeholder",
-  },
-  {
-    title: "Leads",
-    subtitle: "Turn interest into enrollment.",
-    description:
-      "Collect leads directly on your platform and convert them into paying students with guided follow-ups.",
-    gradient: "from-green-50/40 via-green-100/60 to-emerald-200",
-    imageSrc: "/placeholder-dashboard-1.png",
-    alt: "Leads feature placeholder",
-  },
-  {
-    title: "WhatsApp",
-    subtitle: "Notifications that never go unnoticed.",
-    description:
-      "Share live class reminders, assessment updates, and important announcements directly on WhatsApp, supported by in-app and email alerts.",
-    gradient: "from-emerald-50/40 via-emerald-100/60 to-teal-200",
-    imageSrc: "/placeholder-mobile-chat.png",
-    alt: "WhatsApp feature placeholder",
+      "Offer students a white-labeled mobile app experience, keeping your courses and updates always within reach.",
+    gradient: "from-purple-50 via-purple-100 to-violet-200",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_mobile-app-transformed/mobile-apps_anmttc",
+    alt: "Mobile app feature",
   },
   {
     title: "Payments",
     subtitle: "Fast, secure, and stress-free payments.",
     description:
-      "Accept fees easily with trusted gateways and track every transaction in one place.",
-    gradient: "from-amber-50/40 via-amber-100/60 to-yellow-200",
+      "Accept course fees and memberships easily through trusted gateways and track every transaction seamlessly.",
+    gradient: "from-amber-50 via-amber-100 to-yellow-200",
     imageSrc: "/placeholder-dashboard-1.png",
     alt: "Payments feature placeholder",
   },
   {
-    title: "Live Classes",
-    subtitle: "Go live with the tools you already use.",
+    title: "Marketing Tools",
+    subtitle: "Reach, engage, and inspire.",
     description:
-      "Schedule and host sessions through Zoom, Google Meet, or YouTube, all managed smoothly from your dashboard.",
-    gradient: "from-rose-50/40 via-rose-100/60 to-pink-200",
+      "Send, track, and manage emails and WhatsApp campaigns, create public webinars and assessments, and grow your academy's presence effortlessly.",
+    gradient: "from-blue-50 via-blue-100 to-indigo-200",
+    imageSrc: "/placeholder-dashboard-2.png",
+    alt: "Marketing tools feature placeholder",
+  },
+  {
+    title: "Automated Workflows",
+    subtitle: "Let AI handle the routine.",
+    description:
+      "Design highly customized workflows, triggered by time or system events, to automate your processes and save hours every week.",
+    gradient: "from-green-50 via-green-100 to-emerald-200",
+    imageSrc: "/placeholder-dashboard-1.png",
+    alt: "Automated workflows feature placeholder",
+  },
+  {
+    title: "Referral Programs",
+    subtitle: "Turn love into leads.",
+    description:
+      "Encourage word-of-mouth marketing, reward members for referrals, and motivate leads with incentive programs.",
+    gradient: "from-pink-50 via-pink-100 to-rose-200",
+    imageSrc: "/placeholder-dashboard-2.png",
+    alt: "Referral programs feature placeholder",
+  },
+  {
+    title: "Membership Management",
+    subtitle: "Manage your community, effortlessly.",
+    description:
+      "Keep track of subscriptions, member perks, and profiles all from one centralized dashboard.",
+    gradient: "from-emerald-50 via-emerald-100 to-teal-200",
+    imageSrc: "/placeholder-mobile-chat.png",
+    alt: "Membership management feature placeholder",
+  },
+  {
+    title: "Admission and Enrolment",
+    subtitle: "Simplify onboarding for everyone.",
+    description:
+      "Handle course admissions and enrollment processes efficiently, reducing manual effort and improving student experience.",
+    gradient: "from-indigo-50 via-indigo-100 to-blue-200",
+    imageSrc: "/placeholder-dashboard-1.png",
+    alt: "Admission and enrolment feature placeholder",
+  },
+  {
+    title: "Live Classes",
+    subtitle: "Go live without the fuss.",
+    description:
+      "Schedule and host classes via Zoom, Google Meet, or YouTube, all from your dashboard with smooth management.",
+    gradient: "from-rose-50 via-rose-100 to-pink-200",
     imageSrc: "/placeholder-dashboard-2.png",
     alt: "Live classes feature placeholder",
   },
   {
     title: "Content Management",
-    subtitle: "All your study material, beautifully organized.",
+    subtitle: "Organize, share, and shine.",
     description:
-      "Upload and manage notes, videos, PDFs, quizzes, and more from one simple dashboard.",
-    gradient: "from-teal-50/40 via-teal-100/60 to-emerald-200",
+      "Upload and manage videos, PDFs, notes, quizzes, and more in a beautifully structured dashboard.",
+    gradient: "from-teal-50 via-teal-100 to-emerald-200",
     imageSrc: "/placeholder-dashboard-1.png",
     alt: "Content management feature placeholder",
   },
   {
     title: "Assessments",
-    subtitle: "Smarter testing with AI by your side.",
+    subtitle: "Smarter testing made simple.",
     description:
-      "Conduct regular quizzes and exams, and let AI assist with creation, checking, and feedback.",
-    gradient: "from-violet-50/40 via-violet-100/60 to-purple-200",
+      "Create quizzes and exams, leverage AI for question generation and grading, and provide instant feedback to students.",
+    gradient: "from-violet-50 via-violet-100 to-purple-200",
     imageSrc: "/placeholder-dashboard-2.png",
     alt: "Assessments feature placeholder",
   },
   {
     title: "Student Analytics",
-    subtitle: "Give every learner the support they need.",
+    subtitle: "Know every learner inside out.",
     description:
-      "Track progress and performance with clear insights and timely reports that help you intervene early.",
-    gradient: "from-cyan-50/40 via-cyan-100/60 to-blue-200",
+      "Track performance, engagement, and progress with actionable insights to support students exactly when they need it.",
+    gradient: "from-cyan-50 via-cyan-100 to-blue-200",
     imageSrc: "/placeholder-dashboard-1.png",
     alt: "Student analytics feature placeholder",
   },
   {
     title: "AI Tools",
-    subtitle: "Your personal teaching assistant.",
+    subtitle: "Your AI-powered teaching assistant.",
     description:
-      "Create question papers, plan lectures, build presentations, and unlock powerful tools that save hours every week.",
-    gradient: "from-orange-50/40 via-orange-100/60 to-amber-200",
+      "Plan lessons, create presentations, generate questions, and save hours with smart, time-saving tools.",
+    gradient: "from-orange-50 via-orange-100 to-amber-200",
     imageSrc: "/placeholder-dashboard-2.png",
     alt: "AI tools feature placeholder",
   },
@@ -202,7 +220,7 @@ export function FeatureCarousel() {
   }, [applyTransform]);
 
   return (
-    <div ref={containerRef} className="relative w-full overflow-hidden">
+    <div ref={containerRef} className="relative w-full overflow-hidden py-4">
       <div
         ref={trackRef}
         className="flex transition-transform duration-100 ease-out will-change-transform"
@@ -210,10 +228,10 @@ export function FeatureCarousel() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="min-w-0 flex-[0_0_90%] px-3 sm:flex-[0_0_45%] md:px-4 lg:flex-[0_0_30%]"
+            className="min-w-0 flex-[0_0_75%] px-3 sm:flex-[0_0_40%] md:px-4 lg:flex-[0_0_25%]"
           >
             <div
-              className={`h-full min-h-[420px] rounded-2xl bg-gradient-to-b ${feature.gradient} p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col`}
+              className={`h-full min-h-[500px] rounded-2xl bg-gradient-to-b ${feature.gradient} p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col`}
             >
               {/* Title at top - Bold and prominent, all caps */}
               <h3
@@ -223,11 +241,13 @@ export function FeatureCarousel() {
                 {feature.title}
               </h3>
 
-              {/* Illustration placeholder with shadow */}
+              {/* Feature Image */}
               <div className="mb-6 flex items-center justify-center">
-                <div className="w-full h-48 overflow-hidden rounded-lg bg-white shadow-lg flex items-center justify-center">
-                  <div className="text-6xl opacity-30">📊</div>
-                </div>
+                <img 
+                  src={feature.imageSrc} 
+                  alt={feature.alt}
+                  className="w-full h-64 md:h-72 object-contain rounded-lg"
+                />
               </div>
 
               {/* Subtitle - bigger and bolder */}
