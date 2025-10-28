@@ -19,7 +19,7 @@ Background Image:
 - Source: Cloudinary CDN
 
 Hero Right Image:
-- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-hero-trasnformed/distant-learning-_hero_gyhwk6
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-hero-transformed/distant-learning-_hero_b1sx2i
 - Description: Hero section right container visual element
 - Recommended Size: 800x600px
 - Format: WEBP
@@ -73,29 +73,54 @@ Feature 2 - Mobile App:
 - Source: Cloudinary CDN
 
 Feature 3 - Payments:
-- URL: [Add payments screenshot URL here]
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_payments-transformed/payments_fglnsi
 - Description: Payment collection interface
-- Format: PNG
+- Format: WEBP
 
 Feature 4 - Marketing Tools:
-- URL: [Add marketing tools screenshot URL here]
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_marketing-tools-transformed/marketing-tools_uniwch
 - Description: Marketing tools interface
-- Format: PNG
+- Format: WEBP
+
+AI Course Creator Preview:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_admin-create-course-with-Ai/admin-create-course-with-AI_eiamfe
+- Description: AI Course Creator interface preview for "Everything you need to teach online" section
+- Format: WEBP
+
+AI Volt — Presentation Maker Preview:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_volt-slide-transformed/admin-volt-slides_qwbaxq
+- Description: AI Volt slides preview for "Everything you need to teach online" section
+- Format: WEBP
+
+Automated Campaigns Preview:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_vsmart-ai-tools-transformed/admin-create-email-template_bi2qgb
+- Description: Automated campaigns email template preview for "Everything you need to teach online" section
+- Format: WEBP
+
+AI Assessment Engine Preview:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_vsmart-ai-tools-transformed/vsmart-ai-tools_cimazp
+- Description: AI Assessment Engine interface preview for "Everything you need to teach online" section
+- Format: WEBP
+
+Automation Illustration (Automation That Works While You Teach):
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automations-illustration-transformed/automations-illustration_vh83qf
+- Description: Section header illustration for the automation workflows section
+- Format: WEBP
 
 Feature 5 - Automated Workflows:
-- URL: [Add workflows screenshot URL here]
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automated-workflow-transformed/automated-workflows_ydnnak
 - Description: Automated workflows interface
-- Format: PNG
+- Format: WEBP
 
 Feature 6 - Referral Programs:
-- URL: [Add referral programs screenshot URL here]
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automations-illustration-transformed/referral-programs_hyjyv9
 - Description: Referral programs interface
-- Format: PNG
+- Format: WEBP
 
 Feature 7 - Membership Management:
-- URL: [Add membership management screenshot URL here]
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_membership-management-transformed/membership-management_tvk6bi
 - Description: Membership management interface
-- Format: PNG
+- Format: WEBP
 
 Feature 8 - Admission and Enrolment:
 - URL: [Add admission screenshot URL here]

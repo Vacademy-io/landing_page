@@ -112,6 +112,26 @@ body {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Subtle site-wide orange accent glow animation */
+.accent-ambient::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(600px 300px at 10% 15%, rgba(237, 116, 36, 0.06), transparent 60%),
+    radial-gradient(500px 250px at 85% 20%, rgba(255, 155, 85, 0.05), transparent 60%),
+    radial-gradient(700px 350px at 20% 85%, rgba(237, 116, 36, 0.04), transparent 65%),
+    radial-gradient(600px 300px at 80% 80%, rgba(255, 155, 85, 0.04), transparent 65%);
+  animation: ambientShift 20s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+@keyframes ambientShift {
+  0% { transform: translate3d(0,0,0); filter: saturate(1); }
+  100% { transform: translate3d(0,-10px,0); filter: saturate(1.1); }
+}
+
 h1,
 h2,
 h3,

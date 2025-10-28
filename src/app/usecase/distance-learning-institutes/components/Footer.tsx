@@ -72,13 +72,13 @@ export function Footer() {
                 <div className="w-10 h-10 bg-gradient-to-br from-[#ED7424] to-[#FF9B55] rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">V</span>
                 </div>
-                <h3 className="font-heading text-2xl font-bold" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                <h3 className="font-heading text-2xl font-bold">
                   {footerContent.brand.name}
                 </h3>
               </div>
               
               {/* Tagline */}
-              <p className="font-body text-gray-300 leading-relaxed" style={{ fontFamily: 'Karla, sans-serif' }}>
+              <p className="font-body text-gray-300 leading-relaxed">
                 {footerContent.brand.tagline}
               </p>
             </div>
@@ -92,7 +92,7 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="lg:col-span-1"
           >
-            <h4 className="font-heading text-lg font-semibold mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+            <h4 className="font-heading text-lg font-semibold mb-6">
               Quick Links
             </h4>
             <ul className="space-y-3">
@@ -101,7 +101,7 @@ export function Footer() {
                   <a
                     href={link.href}
                     className="font-body text-gray-300 hover:text-white transition-colors duration-200 block"
-                    style={{ fontFamily: 'Karla, sans-serif' }}
+                   
                   >
                     {link.name}
                   </a>
@@ -118,7 +118,7 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:col-span-1"
           >
-            <h4 className="font-heading text-lg font-semibold mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+            <h4 className="font-heading text-lg font-semibold mb-6">
               Resources
             </h4>
             <ul className="space-y-3">
@@ -127,7 +127,7 @@ export function Footer() {
                   <a
                     href={resource.href}
                     className="font-body text-gray-300 hover:text-white transition-colors duration-200 block"
-                    style={{ fontFamily: 'Karla, sans-serif' }}
+                   
                   >
                     {resource.name}
                   </a>
@@ -144,10 +144,10 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="lg:col-span-1"
           >
-            <h4 className="font-heading text-lg font-semibold mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+            <h4 className="font-heading text-lg font-semibold mb-6">
               {footerContent.newsletter.title}
             </h4>
-            <p className="font-body text-gray-300 mb-4 text-sm" style={{ fontFamily: 'Karla, sans-serif' }}>
+            <p className="font-body text-gray-300 mb-4 text-sm">
               {footerContent.newsletter.description}
             </p>
             
@@ -160,7 +160,7 @@ export function Footer() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={footerContent.newsletter.placeholder}
                   className="flex-1 px-4 py-2 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ED7424] focus:border-transparent transition-all duration-200"
-                  style={{ fontFamily: 'Karla, sans-serif' }}
+                 
                   required
                 />
                 <motion.button
@@ -208,7 +208,7 @@ export function Footer() {
         >
           {/* Copyright */}
           <div className="text-center md:text-left">
-            <p className="font-body text-gray-400 text-sm" style={{ fontFamily: 'Karla, sans-serif' }}>
+            <p className="font-body text-gray-400 text-sm">
               © 2024 Vacademy. All rights reserved.
             </p>
           </div>

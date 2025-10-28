@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/navbar/Navbar";
 import { HeroSection } from "./components/HeroSection";
+import { AIToolsSection } from "./components/AIToolsSection";
 import { ProductShowcaseSection } from "./components/ProductShowcaseSection";
 import { StatsSection } from "./components/StatsSection";
 import { PlanTeachSection } from "./components/PlanTeachSection";
-import { AISupportSection } from "./components/AISupportSection";
-import { HyperPersonalizationSection } from "./components/HyperPersonalizationSection";
-import { GrowthLeadGenerationSection } from "./components/GrowthLeadGenerationSection";
-import { MakeTeachingEffortlessSection } from "./components/MakeTeachingEffortlessSection";
+import { AutomationWorkflowsSection } from "./components/AutomationWorkflowsSection";
 import { RealStoriesProofSection } from "./components/RealStoriesProofSection";
 import { GentleCloseSection } from "./components/GentleCloseSection";
 import Footer from "./components/Footer";
@@ -33,15 +31,13 @@ export const metadata: Metadata = {
 export default function DistanceLearningInstitutesPage() {
   return (
     <>
-      <Navbar foreground="light" />
+      <Navbar foreground="dark" />
       <HeroSection />
+      <AIToolsSection />
       <ProductShowcaseSection />
       <PlanTeachSection />
+      <AutomationWorkflowsSection />
       <StatsSection />
-      <AISupportSection />
-      <HyperPersonalizationSection />
-      <GrowthLeadGenerationSection />
-      <MakeTeachingEffortlessSection />
       <RealStoriesProofSection />
       <GentleCloseSection />
       <Footer />

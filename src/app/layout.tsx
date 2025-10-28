@@ -30,9 +30,9 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${raleway.variable} ${karla.variable}`}
+      className={`${raleway.variable} ${karla.variable} accent-ambient`}
     >
-      <body className="font-body antialiased bg-white text-slate-900">
+      <body className="font-body antialiased bg-[#F5F7FA] text-slate-900">
         <ThemeProvider>
           {children}
           <Toaster richColors position="top-right" />

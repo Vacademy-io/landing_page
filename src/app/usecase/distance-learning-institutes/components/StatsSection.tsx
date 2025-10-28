@@ -1,163 +1,130 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { motion, type Variants } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import {
+  GraduationCap,
+  UsersRound,
+  BookOpen,
+  Globe,
+} from "lucide-react";
 
-// 📊 Stats data - easily editable
 const stats = [
   {
-    value: 500,
-    suffix: "+",
-    label: "Institutes",
+    number: "5,000+",
+    label: "Tutors empowered",
+    icon: GraduationCap,
   },
   {
-    value: 1,
-    suffix: "M+",
-    label: "Students",
+    number: "1,50,000+",
+    label: "Students learning",
+    icon: UsersRound,
   },
   {
-    value: 95,
-    suffix: "%",
-    label: "Satisfaction",
+    number: "10,000+",
+    label: "Courses created",
+    icon: BookOpen,
+  },
+  {
+    number: "10+",
+    label: "Countries served",
+    icon: Globe,
   },
 ];
 
-// 🎯 Section content - easily editable
-const sectionContent = {
-  headline: "Education, powered at scale.",
-  tagline: "Join the growing community of institutes and learners making a difference online.",
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
 };
 
-// 🔢 Count-up animation hook
-function useCountUp(end: number, duration: number = 2000, inView: boolean) {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!inView) return;
-
-    let startTime: number;
-    let animationFrame: number;
-
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
-      
-      setCount(Math.floor(progress * end));
-      
-      if (progress < 1) {
-        animationFrame = requestAnimationFrame(animate);
-      }
-    };
-
-    animationFrame = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(animationFrame);
-  }, [end, duration, inView]);
-
-  return count;
-}
+const cardVariants: Variants = {
+  hidden: { 
+    opacity: 0, 
+    y: 20 
+  },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut" as const,
+    },
+  },
+};
 
 export function StatsSection() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
-    <section 
-      ref={ref}
-      className="bg-[#F9FAFB] py-20 lg:py-32"
-      aria-labelledby="stats-heading"
-    >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+    <section className="bg-white py-16 lg:py-24" aria-labelledby="stats-heading">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8">
+        {/* Header with CTAs */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true }}
+          className="mb-10 md:mb-12"
         >
-          <h2 
+          <h2
             id="stats-heading"
-            className="font-heading text-4xl md:text-5xl lg:text-6xl text-[#111827] mb-4"
+            className="text-3xl lg:text-4xl font-bold text-[#1A1A1A]"
           >
-            {sectionContent.headline}
+            We’re building success for educators
           </h2>
-          <p className="font-body text-lg text-[#6B7280] max-w-2xl mx-auto">
-            {sectionContent.tagline}
-          </p>
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <Button className="h-11 px-5 rounded-lg bg-[#ED7424] text-white hover:bg-[#ed7424]/90">
+              Start for free
+            </Button>
+            <Button
+              variant="outline"
+              className="h-11 px-5 rounded-lg border-gray-200 text-[#1A1A1A] hover:bg-gray-50"
+            >
+              Book a Demo
+            </Button>
+          </div>
         </motion.div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12 max-w-5xl mx-auto">
-          {stats.map((stat, index) => (
-            <StatCard 
-              key={stat.label} 
-              stat={stat} 
-              index={index} 
-              isInView={isInView}
-            />
-          ))}
-        </div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8"
+        >
+          {stats.map((stat, index) => {
+            const IconComponent = stat.icon;
+            return (
+              <motion.div
+                key={index}
+                variants={cardVariants}
+                className="group"
+              >
+                <div className="bg-white rounded-xl p-6 lg:p-8 shadow-sm ring-1 ring-gray-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                  {/* Icon */}
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4 bg-[#FEE8D5]">
+                    <IconComponent className="w-6 h-6 text-[#ED7424]" />
+                  </div>
+
+                  {/* Number */}
+                  <div className="text-3xl lg:text-4xl font-bold mb-2 text-[#ED7424]">
+                    {stat.number}
+                  </div>
+
+                  {/* Label */}
+                  <div className="text-lg font-medium text-[#1A1A1A]">
+                    {stat.label}
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
+        </motion.div>
       </div>
     </section>
-  );
-}
-
-// 📈 Individual stat card component
-function StatCard({ 
-  stat, 
-  index, 
-  isInView 
-}: { 
-  stat: typeof stats[0]; 
-  index: number; 
-  isInView: boolean;
-}) {
-  const count = useCountUp(stat.value, 2000, isInView);
-
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ 
-        duration: 0.6, 
-        delay: index * 0.15,
-        ease: "easeOut"
-      }}
-      whileHover={{ 
-        scale: 1.05,
-        transition: { duration: 0.2 }
-      }}
-      className="flex flex-col items-center text-center group cursor-pointer"
-    >
-      {/* Number with gradient */}
-      <motion.div
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        transition={{ 
-          duration: 0.5, 
-          delay: index * 0.15 + 0.3,
-          ease: "easeOut"
-        }}
-        className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-[#ED7424] to-[#FF9B55] bg-clip-text text-transparent mb-2"
-      >
-        {count}{stat.suffix}
-      </motion.div>
-      
-      {/* Label */}
-      <div className="font-body text-lg text-[#6B7280] group-hover:text-[#ED7424] transition-colors duration-200">
-        {stat.label}
-      </div>
-      
-      {/* Subtle accent line */}
-      <motion.div
-        initial={{ width: 0 }}
-        animate={{ width: "100%" }}
-        transition={{ 
-          duration: 0.8, 
-          delay: index * 0.15 + 0.5,
-          ease: "easeOut"
-        }}
-        className="h-0.5 bg-gradient-to-r from-[#ED7424] to-[#FF9B55] mt-3 rounded-full"
-      />
-    </motion.div>
   );
 }

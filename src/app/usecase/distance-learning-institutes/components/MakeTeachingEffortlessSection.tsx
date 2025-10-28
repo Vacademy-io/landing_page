@@ -63,7 +63,7 @@ export function MakeTeachingEffortlessSection() {
   }, [completedSteps]);
 
   return (
-    <section className="bg-gradient-to-b from-white to-[#F8FAFC] py-20 lg:py-32 relative overflow-hidden">
+    <section className="bg-[#F5F7FA] py-20 lg:py-32 relative overflow-hidden">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -103,8 +103,8 @@ export function MakeTeachingEffortlessSection() {
 
         {/* Interactive Timeline */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 30, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.3 }}
           className="relative"
@@ -147,7 +147,13 @@ export function MakeTeachingEffortlessSection() {
               </motion.div>
 
               {/* Timeline Steps */}
-              <div className="grid grid-cols-4 gap-8 relative z-10">
+              <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: 0.5 }}
+                className="grid grid-cols-4 gap-8 relative z-10"
+              >
                 {timelineSteps.map((step, index) => {
                   const isActive = activeStep === index;
                   const isCompleted = completedSteps.includes(index);
@@ -155,11 +161,15 @@ export function MakeTeachingEffortlessSection() {
                   return (
                     <motion.div
                       key={index}
+                      initial={{ opacity: 0, y: 30, scale: 0.9 }}
+                      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
                       animate={{
                         scale: isActive ? 1.05 : 1,
                         y: isActive ? -10 : 0,
                       }}
-                      transition={{ duration: 0.3 }}
+                      whileHover={{ scale: 1.02 }}
                       className="relative"
                     >
                       {/* Step Card */}
@@ -229,7 +239,7 @@ export function MakeTeachingEffortlessSection() {
                     </motion.div>
                   );
                 })}
-              </div>
+              </motion.div>
             </div>
           </div>
 

@@ -36,7 +36,7 @@ const itemVariants = {
 
 export function GentleCloseSection() {
   return (
-    <section className="bg-gradient-to-b from-[#F8FAFC] to-[#F1F5F9] py-20 lg:py-32 relative overflow-hidden">
+    <section className="bg-[#F5F7FA] py-20 lg:py-32 relative overflow-hidden">
       {/* Soft Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -58,7 +58,7 @@ export function GentleCloseSection() {
           <motion.h2
             variants={itemVariants}
             className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6 leading-tight" 
-            style={{ fontFamily: 'Raleway, sans-serif' }}
+           
           >
             {sectionContent.headline}
           </motion.h2>
@@ -67,7 +67,7 @@ export function GentleCloseSection() {
           <motion.p
             variants={itemVariants}
             className="font-body text-lg md:text-xl text-[#4B5563] leading-relaxed max-w-3xl mx-auto mb-12" 
-            style={{ fontFamily: 'Karla, sans-serif', lineHeight: '1.7' }}
+           
           >
             {sectionContent.description}
           </motion.p>
@@ -115,18 +115,30 @@ export function GentleCloseSection() {
             variants={itemVariants}
             className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-[#6B7280]"
           >
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              <span>Free consultation</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-              <span>No commitment required</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-              <span>Personalized guidance</span>
-            </div>
+            {[
+              { color: "bg-green-500", text: "Free consultation" },
+              { color: "bg-blue-500", text: "No commitment required" },
+              { color: "bg-purple-500", text: "Personalized guidance" }
+            ].map((item, index) => (
+              <motion.div 
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+                className="flex items-center gap-2"
+              >
+                <motion.div 
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.4, delay: 0.9 + index * 0.1 }}
+                  animate={{ scale: [1, 1.2, 1] }}
+                  className={`w-2 h-2 ${item.color} rounded-full`}
+                />
+                <span>{item.text}</span>
+              </motion.div>
+            ))}
           </motion.div>
         </motion.div>
       </div>

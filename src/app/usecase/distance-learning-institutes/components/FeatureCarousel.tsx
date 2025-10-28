@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 type Feature = {
   title: string;
@@ -36,8 +37,8 @@ const features: Feature[] = [
     description:
       "Accept course fees and memberships easily through trusted gateways and track every transaction seamlessly.",
     gradient: "from-amber-50 via-amber-100 to-yellow-200",
-    imageSrc: "/placeholder-dashboard-1.png",
-    alt: "Payments feature placeholder",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_payments-transformed/payments_fglnsi",
+    alt: "Payments feature",
   },
   {
     title: "Marketing Tools",
@@ -45,8 +46,8 @@ const features: Feature[] = [
     description:
       "Send, track, and manage emails and WhatsApp campaigns, create public webinars and assessments, and grow your academy's presence effortlessly.",
     gradient: "from-blue-50 via-blue-100 to-indigo-200",
-    imageSrc: "/placeholder-dashboard-2.png",
-    alt: "Marketing tools feature placeholder",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_marketing-tools-transformed/marketing-tools_uniwch",
+    alt: "Marketing tools feature",
   },
   {
     title: "Automated Workflows",
@@ -54,8 +55,8 @@ const features: Feature[] = [
     description:
       "Design highly customized workflows, triggered by time or system events, to automate your processes and save hours every week.",
     gradient: "from-green-50 via-green-100 to-emerald-200",
-    imageSrc: "/placeholder-dashboard-1.png",
-    alt: "Automated workflows feature placeholder",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automated-workflow-transformed/automated-workflows_ydnnak",
+    alt: "Automated workflows feature",
   },
   {
     title: "Referral Programs",
@@ -63,8 +64,8 @@ const features: Feature[] = [
     description:
       "Encourage word-of-mouth marketing, reward members for referrals, and motivate leads with incentive programs.",
     gradient: "from-pink-50 via-pink-100 to-rose-200",
-    imageSrc: "/placeholder-dashboard-2.png",
-    alt: "Referral programs feature placeholder",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automations-illustration-transformed/referral-programs_hyjyv9",
+    alt: "Referral programs feature",
   },
   {
     title: "Membership Management",
@@ -72,8 +73,8 @@ const features: Feature[] = [
     description:
       "Keep track of subscriptions, member perks, and profiles all from one centralized dashboard.",
     gradient: "from-emerald-50 via-emerald-100 to-teal-200",
-    imageSrc: "/placeholder-mobile-chat.png",
-    alt: "Membership management feature placeholder",
+    imageSrc: "https://res.cloudinary.com/dwtmtd0oz/image/upload/t_membership-management-transformed/membership-management_tvk6bi",
+    alt: "Membership management feature",
   },
   {
     title: "Admission and Enrolment",
@@ -243,10 +244,14 @@ export function FeatureCarousel() {
 
               {/* Feature Image */}
               <div className="mb-6 flex items-center justify-center">
-                <img 
-                  src={feature.imageSrc} 
+                <Image
+                  src={feature.imageSrc}
                   alt={feature.alt}
+                  width={640}
+                  height={480}
                   className="w-full h-64 md:h-72 object-contain rounded-lg"
+                  loading="lazy"
+                  unoptimized
                 />
               </div>
 

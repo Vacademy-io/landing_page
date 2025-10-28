@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -77,18 +78,31 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
 
   return (
     <>
-      <header className="fixed top-0 z-40 w-full flex justify-center transition-all duration-300">
-        <nav
+      <motion.header 
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="fixed top-0 z-40 w-full flex justify-center transition-all duration-300"
+      >
+        <motion.nav
+          initial={{ scale: 0.9, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           className={cn(
             "flex items-center justify-between px-6 py-3 mt-4 rounded-full border transition-all duration-300 w-3/4",
             isScrolled
-              ? "bg-white/90 shadow-xl backdrop-blur-xl border-white/30"
-              : "bg-white/30 backdrop-blur-lg border-white/20"
+              ? "bg-[#F5F7FA]/90 shadow-xl backdrop-blur-xl border-white/30"
+              : "bg-[#F5F7FA]/30 backdrop-blur-lg border-white/20"
           )}
           aria-label="Main navigation"
         >
           {/* Left: Logo */}
-          <div className="flex items-center">
+          <motion.div 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="flex items-center"
+          >
             <Link
               href="/"
               className="flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ED7424] focus-visible:ring-offset-2 rounded-md"
@@ -96,10 +110,13 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
             >
               {/* Vacademy Logo */}
               <div className="flex items-center justify-center">
-                <img 
+                <Image 
                   src="/images/Vacademy Short logo.png" 
                   alt="Vacademy Logo" 
+                  width={120}
+                  height={40}
                   className="h-10 w-auto"
+                  priority
                 />
               </div>
               <span
@@ -111,10 +128,15 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
                 Vacademy
               </span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Right: Navigation + CTA */}
-          <div className="flex items-center gap-4">
+          <motion.div 
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="flex items-center gap-4"
+          >
             {/* Desktop Navigation */}
             <ul className="hidden items-center gap-2 lg:flex">
               {navigationItems.map((item) =>
@@ -239,9 +261,9 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
             >
               <Menu className={cn("size-5", isLightForeground && "text-white")} />
             </button>
-          </div>
-        </nav>
-      </header>
+          </motion.div>
+        </motion.nav>
+      </motion.header>
 
       {/* Mobile Menu */}
       <MobileMenu

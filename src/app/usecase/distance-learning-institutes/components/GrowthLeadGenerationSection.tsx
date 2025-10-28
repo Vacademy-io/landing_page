@@ -58,7 +58,7 @@ export function GrowthLeadGenerationSection() {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-br from-[#FFF7ED] via-[#FFEDD5] to-white py-20 lg:py-32 overflow-hidden">
+    <section className="relative bg-[#F5F7FA] py-20 lg:py-32 overflow-hidden">
       {/* Animated Background Grid */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -76,39 +76,66 @@ export function GrowthLeadGenerationSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6">
             {sectionContent.headline}
           </h2>
-          <p className="font-body text-lg md:text-xl text-[#4B5563] max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Karla, sans-serif' }}>
+          <p className="font-body text-lg md:text-xl text-[#4B5563] max-w-3xl mx-auto leading-relaxed">
             {sectionContent.subtext}
           </p>
         </motion.div>
 
         {/* Dashboard Container */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 30, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.2 }}
+          whileHover={{ scale: 1.01 }}
           className="bg-gradient-to-br from-white to-gray-50 rounded-3xl shadow-2xl border border-gray-200 p-6 md:p-10 relative overflow-hidden"
         >
           {/* Dashboard Header */}
-          <div className="flex items-center justify-between mb-8 pb-6 border-b border-gray-200">
-            <div>
-              <h3 className="font-heading text-xl md:text-2xl font-bold text-[#111827]" style={{ fontFamily: 'Raleway, sans-serif' }}>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex items-center justify-between mb-8 pb-6 border-b border-gray-200"
+          >
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <h3 className="font-heading text-xl md:text-2xl font-bold text-[#111827]">
                 Live Automation Dashboard
               </h3>
-              <p className="text-sm text-[#6B7280] mt-1">Watching your leads in real-time</p>
-            </div>
+              <motion.p 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: 0.5 }}
+                className="text-sm text-[#6B7280] mt-1"
+              >
+                Watching your leads in real-time
+              </motion.p>
+            </motion.div>
             <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.6 }}
               animate={{ scale: [1, 1.05, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
               className="flex items-center gap-2 bg-green-100 px-4 py-2 rounded-full"
             >
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+              <motion.div 
+                animate={{ scale: [1, 1.2, 1] }}
+                transition={{ duration: 1.5, repeat: Infinity }}
+                className="w-2 h-2 bg-green-500 rounded-full"
+              />
               <span className="text-sm font-medium text-green-700">Active</span>
             </motion.div>
-          </div>
+          </motion.div>
 
           {/* Workflow Steps Container */}
           <div className="space-y-0">
@@ -160,10 +187,10 @@ export function GrowthLeadGenerationSection() {
                           </motion.div>
                         )}
                       </div>
-                      <h4 className="font-heading text-lg font-bold text-[#111827] mb-1" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                      <h4 className="font-heading text-lg font-bold text-[#111827] mb-1">
                         {step.title}
                       </h4>
-                      <p className="text-sm text-[#6B7280]" style={{ fontFamily: 'Karla, sans-serif' }}>
+                      <p className="text-sm text-[#6B7280]">
                         {step.description}
                       </p>
                     </div>
@@ -246,7 +273,7 @@ export function GrowthLeadGenerationSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="font-body text-lg md:text-xl text-[#4B5563] font-medium italic" style={{ fontFamily: 'Karla, sans-serif' }}>
+          <p className="font-body text-lg md:text-xl text-[#4B5563] font-medium italic">
             {sectionContent.bottomText}
           </p>
         </motion.div>

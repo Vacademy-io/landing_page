@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 // 🎯 Section content - easily editable
 const sectionContent = {
@@ -42,10 +43,13 @@ export function RealitySection() {
               className="mt-12"
             >
               <div className="relative max-w-4xl mx-auto">
-                <img
+                <Image
                   src="https://res.cloudinary.com/dwtmtd0oz/image/upload/f_webp/Laptop-mobile-mockup-1_zvkgt6"
                   alt="Vacademy laptop and mobile interface mockup showing seamless teaching experience"
+                  width={1280}
+                  height={720}
                   className="w-full h-auto rounded-2xl shadow-2xl"
+                  loading="lazy"
                 />
               </div>
             </motion.div>

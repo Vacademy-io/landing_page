@@ -62,7 +62,7 @@ const itemVariants = {
 
 export function AISupportSection() {
   return (
-    <section className="bg-gradient-to-b from-white to-[#F9FAFB] py-20 lg:py-32">
+    <section className="bg-[#F5F7FA] py-20 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         {/* Section Header */}
         <motion.div
@@ -72,10 +72,10 @@ export function AISupportSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6">
             {sectionContent.headline}
           </h2>
-          <p className="font-body text-lg md:text-xl text-[#4B5563] max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: 'Karla, sans-serif' }}>
+          <p className="font-body text-lg md:text-xl text-[#4B5563] max-w-3xl mx-auto leading-relaxed">
             {sectionContent.subtext}
           </p>
         </motion.div>
@@ -106,34 +106,71 @@ export function AISupportSection() {
                   >
                     <card.icon className="w-8 h-8 text-[#ED7424]" />
                   </motion.div>
-                  <h3 className="font-heading text-3xl md:text-4xl font-bold text-[#111827] leading-tight" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                  <h3 className="font-heading text-3xl md:text-4xl font-bold text-[#111827] leading-tight">
                     {card.title}
                   </h3>
                 </div>
 
                 {/* Description */}
-                <p className="font-body text-lg md:text-xl text-[#4B5563] leading-relaxed" style={{ fontFamily: 'Karla, sans-serif', lineHeight: '1.7' }}>
+                <p className="font-body text-lg md:text-xl text-[#4B5563] leading-relaxed">
                   {card.description}
                 </p>
 
                 {/* Example Box */}
                 <div className="bg-gradient-to-br from-[#ED7424]/5 to-[#FF9B55]/5 rounded-xl p-6 border border-[#ED7424]/10">
-                  <p className="font-body text-base text-[#ED7424] font-medium" style={{ fontFamily: 'Karla, sans-serif', lineHeight: '1.6' }}>
+                  <p className="font-body text-base text-[#ED7424] font-medium">
                     💬 &ldquo;{card.example}&rdquo;
                   </p>
                 </div>
               </div>
 
               {/* Image Side */}
-              <div className="flex-1">
-                <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 h-80 flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <card.icon className="w-16 h-16 mb-4 opacity-50" />
-                    <p className="text-lg font-medium">Placeholder Image</p>
-                    <p className="text-sm opacity-75">{card.title}</p>
-                  </div>
-                </div>
-              </div>
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="flex-1"
+              >
+                <motion.div 
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.3 }}
+                  className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 h-80 flex items-center justify-center"
+                >
+                  <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-100px" }}
+                    transition={{ duration: 0.6, delay: 0.4 }}
+                    className="text-center text-gray-500"
+                  >
+                    <motion.div
+                      whileHover={{ rotate: 5 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <card.icon className="w-16 h-16 mb-4 opacity-50" />
+                    </motion.div>
+                    <motion.p 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.6, delay: 0.6 }}
+                      className="text-lg font-medium"
+                    >
+                      Placeholder Image
+                    </motion.p>
+                    <motion.p 
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.6, delay: 0.8 }}
+                      className="text-sm opacity-75"
+                    >
+                      {card.title}
+                    </motion.p>
+                  </motion.div>
+                </motion.div>
+              </motion.div>
             </motion.div>
           ))}
         </motion.div>
@@ -146,7 +183,7 @@ export function AISupportSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-16"
         >
-          <p className="font-body text-lg md:text-xl text-[#4B5563] font-medium" style={{ fontFamily: 'Karla, sans-serif' }}>
+          <p className="font-body text-lg md:text-xl text-[#4B5563] font-medium">
             {sectionContent.tagline}
           </p>
         </motion.div>

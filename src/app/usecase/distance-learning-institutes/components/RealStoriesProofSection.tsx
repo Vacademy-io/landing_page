@@ -108,7 +108,7 @@ export function RealStoriesProofSection() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="bg-gradient-to-b from-[#F8FAFC] to-white py-20 lg:py-32">
+    <section className="bg-[#F5F7FA] py-20 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         {/* Section Header */}
         <motion.div
@@ -118,7 +118,7 @@ export function RealStoriesProofSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827] mb-6">
             {sectionContent.headline}
           </h2>
         </motion.div>
@@ -143,7 +143,7 @@ export function RealStoriesProofSection() {
 
                     {/* Quote */}
                     <div className="relative z-10">
-                      <p className="font-body text-2xl md:text-3xl text-[#111827] leading-relaxed mb-8 italic" style={{ fontFamily: 'Karla, sans-serif' }}>
+                      <p className="font-body text-2xl md:text-3xl text-[#111827] leading-relaxed mb-8 italic">
                         &ldquo;{testimonial.quote}&rdquo;
                       </p>
 
@@ -153,10 +153,10 @@ export function RealStoriesProofSection() {
                           {testimonial.author.charAt(0)}
                         </div>
                         <div>
-                          <div className="font-heading text-lg font-bold text-[#111827]" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                          <div className="font-heading text-lg font-bold text-[#111827]">
                             {testimonial.author}
                           </div>
-                          <div className="font-body text-sm text-[#6B7280]" style={{ fontFamily: 'Karla, sans-serif' }}>
+                          <div className="font-body text-sm text-[#6B7280]">
                             {testimonial.role}, {testimonial.location}
                           </div>
                           <div className="flex items-center gap-1 mt-1">
@@ -210,16 +210,23 @@ export function RealStoriesProofSection() {
         </motion.div>
 
         {/* Visual Grid Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+        >
           {/* Map Visualization */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -30, scale: 0.95 }}
+            whileInView={{ opacity: 1, x: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            whileHover={{ scale: 1.02 }}
             className="bg-white rounded-3xl shadow-xl p-8 border border-gray-200 relative overflow-hidden"
           >
-            <h3 className="font-heading text-2xl font-bold text-[#111827] mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+            <h3 className="font-heading text-2xl font-bold text-[#111827] mb-6">
               Global Reach
             </h3>
             
@@ -291,12 +298,12 @@ export function RealStoriesProofSection() {
 
           {/* Educator Grid */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 30, scale: 0.95 }}
+            whileInView={{ opacity: 1, x: 0, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
           >
-            <h3 className="font-heading text-2xl font-bold text-[#111827] mb-6" style={{ fontFamily: 'Raleway, sans-serif' }}>
+            <h3 className="font-heading text-2xl font-bold text-[#111827] mb-6">
               Educators We Support
             </h3>
 
@@ -321,7 +328,7 @@ export function RealStoriesProofSection() {
 
                   {/* Info */}
                   <div className="text-center">
-                    <div className="font-heading text-sm font-bold text-[#111827] mb-1" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                    <div className="font-heading text-sm font-bold text-[#111827] mb-1">
                       {educator.name}
                     </div>
                     <div className="text-xs text-[#6B7280] mb-1">{educator.subject}</div>
@@ -347,7 +354,7 @@ export function RealStoriesProofSection() {
                   <Users className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <div className="font-heading text-lg font-bold text-[#111827]" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                  <div className="font-heading text-lg font-bold text-[#111827]">
                     Growing Global Community
                   </div>
                   <div className="text-sm text-[#6B7280]">Join tutors from around the world who trust Vacademy</div>
@@ -355,7 +362,7 @@ export function RealStoriesProofSection() {
               </div>
             </motion.div>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
