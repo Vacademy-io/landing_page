@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ReactFlow, { Background, Node, Edge, MarkerType, BackgroundVariant, ReactFlowInstance, Handle, Position } from "reactflow";
+import ReactFlow, { Node, Edge, MarkerType, ReactFlowInstance, Handle, Position } from "reactflow";
 import type { NodeProps, NodeTypes } from "reactflow";
 import "reactflow/dist/style.css";
 import dagre from "dagre";
@@ -36,6 +36,7 @@ type AutomationNodeData = {
   subtitle: string;
   Icon: LucideIcon;
   bg: string;
+  isMobile?: boolean;
 };
 
 const workflows: Workflow[] = [
@@ -137,16 +138,6 @@ export function AutomationWorkflowsSection() {
           </motion.div>
         </div>
 
-        {/* Supporting heading */}
-        <div className="mb-6">
-          <h3 className="font-heading text-xl md:text-2xl font-bold text-[#111827]">
-            See how your daily tasks become automated
-          </h3>
-          <p className="text-sm md:text-base text-[#6B7280] mt-1">
-            Each workflow shows a typical task reduced from minutes to milliseconds.
-          </p>
-        </div>
-
         {/* Workflow area split: left tabs, right canvas */}
         <motion.div
           key={activeWorkflow.key}
@@ -154,10 +145,21 @@ export function AutomationWorkflowsSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6">
             {/* Left tabs */}
             <div className="lg:col-span-4">
-              <div className="flex flex-col divide-y divide-gray-100">
+              <div className="lg:sticky lg:top-6">
+                {/* Supporting heading */}
+                <div className="mb-4">
+                  <h3 className="font-heading text-xl md:text-2xl font-bold text-[#111827]">
+                    See how your daily tasks become automated
+                  </h3>
+                  <p className="text-sm md:text-base text-[#6B7280] mt-1">
+                    Each workflow shows a typical task reduced from minutes to milliseconds.
+                  </p>
+                </div>
+                
+                <div className="flex flex-col gap-2">
                 {workflows.map((wf, idx) => {
                   const isActive = active === idx;
                   const Icon = wf.icon || ClipboardCheck;
@@ -165,38 +167,53 @@ export function AutomationWorkflowsSection() {
                     <button
                       key={wf.key}
                       onClick={() => setActive(idx)}
-                      className={`group flex items-start gap-3 text-left w-full py-4 transition-colors ${isActive ? "" : "hover:bg-[#F9FAFB]"}`}
+                      className={`group flex items-start gap-3 text-left w-full py-3.5 px-3.5 rounded-lg transition-all ${
+                        isActive 
+                          ? "bg-gradient-to-r from-[#FFF3EA] to-[#FFFBF7] shadow-md ring-2 ring-[#ED7424]/20" 
+                          : "hover:bg-[#F9FAFB]"
+                      }`}
                     >
-                      <div className={`shrink-0 w-10 h-10 rounded-xl grid place-items-center ring-1 ${isActive ? "bg-[#FFF3EA] ring-[#FED7AA]" : "bg-[#FFF7ED] ring-[#FFE4D5]"}`}>
-                        <Icon className={`w-5 h-5 ${isActive ? "text-[#ED7424]" : "text-[#F59E0B]"}`} />
+                      <div className={`shrink-0 w-10 h-10 rounded-xl grid place-items-center ring-1 transition-all ${
+                        isActive 
+                          ? "bg-[#ED7424] ring-[#ED7424] shadow-lg" 
+                          : "bg-[#FFF7ED] ring-[#FFE4D5] group-hover:bg-[#FFF3EA]"
+                      }`}>
+                        <Icon className={`w-5 h-5 ${isActive ? "text-white" : "text-[#F59E0B] group-hover:text-[#ED7424]"}`} />
                       </div>
-                      <div className="min-w-0">
-                        <div className={`font-heading text-base font-semibold ${isActive ? "text-[#111827]" : "text-[#111827]"}`}>{wf.title}</div>
+                      <div className="min-w-0 flex-1">
+                        <div className={`font-heading text-base font-semibold transition-colors ${
+                          isActive ? "text-[#ED7424]" : "text-[#111827] group-hover:text-[#ED7424]"
+                        }`}>
+                          {wf.title}
+                        </div>
                         {wf.description && (
-                          <div className={`text-sm ${isActive ? "text-[#6B7280]" : "text-[#6B7280]"}`}>{wf.description}</div>
+                          <div className={`text-sm mt-0.5 transition-colors ${
+                            isActive ? "text-[#6B7280]" : "text-[#9CA3AF] group-hover:text-[#6B7280]"
+                          }`}>
+                            {wf.description}
+                          </div>
                         )}
                       </div>
-                      <div className="ml-auto pt-1">
-                        <span className={`inline-block h-2 w-2 rounded-full ${isActive ? "bg-[#ED7424]" : "bg-transparent group-hover:bg-gray-300"}`} />
-              </div>
+                      <div className="ml-auto pt-1 shrink-0">
+                        <span className={`inline-block h-2 w-2 rounded-full transition-all ${
+                          isActive ? "bg-[#ED7424] shadow-sm" : "bg-transparent group-hover:bg-[#ED7424]/30"
+                        }`} />
+                      </div>
                     </button>
                   );
                 })}
+                </div>
+              </div>
             </div>
-          </div>
             {/* Right canvas */}
             <div className="lg:col-span-8">
-              <div className="mb-3">
-                <h4 className="font-heading text-lg md:text-xl font-semibold text-[#111827]">{activeWorkflow.title}</h4>
-                <p className="text-sm text-[#6B7280]">Explore the steps and branches in this automation.</p>
-              </div>
               <WorkflowCanvas activeKey={activeWorkflow.key} />
             </div>
           </div>
         </motion.div>
 
         {/* CTA */}
-        <div className="mt-10 flex">
+        <div className="mt-8 flex">
           <a
             href="#"
             className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-[#ED7424] text-white font-semibold shadow-md hover:brightness-110 transition-all"
@@ -214,17 +231,18 @@ export function AutomationWorkflowsSection() {
 export default AutomationWorkflowsSection;
 
 // Auto-layout function using dagre
-const getLayoutedElements = (nodes: Node[], edges: Edge[], direction = "TB") => {
+const getLayoutedElements = (nodes: Node[], edges: Edge[], direction = "TB", isMobile = false) => {
   const dagreGraph = new dagre.graphlib.Graph();
   dagreGraph.setDefaultEdgeLabel(() => ({}));
   
-  const nodeWidth = 220;
-  const nodeHeight = 72;
+  // Responsive node dimensions
+  const nodeWidth = isMobile ? 160 : 220;
+  const nodeHeight = isMobile ? 60 : 72;
 
   dagreGraph.setGraph({ 
     rankdir: direction,
-    nodesep: 36,
-    ranksep: 96,
+    nodesep: isMobile ? 24 : 36,
+    ranksep: isMobile ? 60 : 96,
   });
 
   nodes.forEach((node) => {
@@ -457,32 +475,42 @@ function getFlowData(activeKey: string): { nodes: Node[]; edges: Edge[] } {
 }
 
 function WorkflowCanvas({ activeKey }: { activeKey: string }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect mobile viewport
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const { nodes: initialNodes, edges: initialEdges } = useMemo(() => getFlowData(activeKey), [activeKey]);
 
-  // Apply auto-layout
+  // Apply auto-layout with mobile awareness
   const { nodes, edges } = useMemo(() => {
-    return getLayoutedElements(initialNodes, initialEdges, "TB");
-  }, [initialNodes, initialEdges]);
+    return getLayoutedElements(initialNodes, initialEdges, "TB", isMobile);
+  }, [initialNodes, initialEdges, isMobile]);
 
   const orientedNodes: Node<AutomationNodeData>[] = useMemo(() => {
     return (nodes as Node<AutomationNodeData>[]).map((n) => ({
       ...n,
       sourcePosition: Position.Bottom,
       targetPosition: Position.Top,
+      data: { ...n.data, isMobile },
     }));
-  }, [nodes]);
+  }, [nodes, isMobile]);
 
-  // Lock zoom to the fitted value so the whole workflow is visible in 80vh
-  const [lockedZoom, setLockedZoom] = useState<number | null>(null);
-
-  // Clamp panning to the content bounds so users don't get lost
-  const translateExtent = useMemo(() => {
+  // Calculate required canvas dimensions based on node positions
+  const canvasDimensions = useMemo(() => {
     const ns = nodes as Node<AutomationNodeData>[];
-    if (!ns || ns.length === 0) return [[-1000, -1000], [1000, 1000]] as [[number, number], [number, number]];
+    if (!ns || ns.length === 0) return { width: 800, height: 600 };
+    
     let minX = Number.POSITIVE_INFINITY;
     let maxX = Number.NEGATIVE_INFINITY;
     let minY = Number.POSITIVE_INFINITY;
     let maxY = Number.NEGATIVE_INFINITY;
+    
     for (const n of ns) {
       if (typeof n?.position?.x === "number") {
         minX = Math.min(minX, n.position.x);
@@ -493,73 +521,94 @@ function WorkflowCanvas({ activeKey }: { activeKey: string }) {
         maxY = Math.max(maxY, n.position.y);
       }
     }
-    const padding = 200;
-    const nodeWidth = 240;
-    const nodeHeight = 80;
-    return [[minX - padding, minY - padding], [maxX + nodeWidth + padding, maxY + nodeHeight + padding]] as [[number, number], [number, number]];
-  }, [nodes]);
+    
+    const padding = isMobile ? 30 : 40;
+    const nodeWidth = isMobile ? 160 : 220;
+    const nodeHeight = isMobile ? 60 : 72;
+    
+    return {
+      width: maxX - minX + nodeWidth + (padding * 2),
+      height: maxY - minY + nodeHeight + (padding * 2)
+    };
+  }, [nodes, isMobile]);
 
   const nodeTypes = useMemo<NodeTypes>(() => ({ automation: AutomationNode }), []);
 
+  // Responsive edge styling
+  const edgeOptions = useMemo(() => ({
+    type: "smoothstep" as const,
+    animated: true,
+    style: { stroke: "#ED7424", strokeWidth: isMobile ? 1.5 : 2 },
+    markerEnd: { type: MarkerType.ArrowClosed, color: "#ED7424" },
+  }), [isMobile]);
+
   return (
     <div className="w-full">
-      <div style={{ height: "80vh" }} className="bg-white">
+      <div 
+        style={{ height: `${canvasDimensions.height}px` }}
+        className="[&_.react-flow\_\_renderer]:pointer-events-none [&_.react-flow\_\_pane]:pointer-events-none"
+      >
         <ReactFlow
           nodes={orientedNodes}
           edges={edges}
           nodeTypes={nodeTypes}
+          // Disable all interactions for static display
           zoomOnScroll={false}
           zoomOnPinch={false}
           zoomOnDoubleClick={false}
-          panOnDrag={true}
+          panOnDrag={false}
           panOnScroll={false}
-          nodesDraggable={true}
-          minZoom={lockedZoom ?? 0.2}
-          maxZoom={lockedZoom ?? 2}
-          translateExtent={translateExtent}
-          defaultEdgeOptions={{
-            type: "smoothstep",
-            animated: true,
-            style: { stroke: "#ED7424", strokeWidth: 2 },
-            markerEnd: { type: MarkerType.ArrowClosed, color: "#ED7424" },
-          }}
+          nodesDraggable={false}
+          nodesConnectable={false}
+          elementsSelectable={false}
+          preventScrolling={false}
+          defaultEdgeOptions={edgeOptions}
           onInit={(instance: ReactFlowInstance) => {
-            // Fit entire graph into view
-            instance.fitView({ padding: 0.2, includeHiddenNodes: true, duration: 300 });
-            // Force specific zoom for the enrollment flow
-            const targetZoom = activeKey === "enroll-convert" ? 1 : instance.getZoom();
-            const { x, y } = instance.getViewport();
-            instance.setViewport({ x, y, zoom: targetZoom });
-            setLockedZoom(targetZoom);
+            // Fit entire graph into view with minimal padding
+            instance.fitView({ padding: 0.05, includeHiddenNodes: true, duration: 300 });
           }}
-        >
-          <Background variant={BackgroundVariant.Dots} gap={16} size={1} color="#e5e7eb" />
-        </ReactFlow>
+        />
       </div>
     </div>
   );
 }
 
 function AutomationNode({ data }: NodeProps<AutomationNodeData>) {
-  const { title, subtitle, Icon, bg } = data as AutomationNodeData;
+  const { title, subtitle, Icon, bg, isMobile = false } = data as AutomationNodeData;
+  
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      whileHover={{ scale: 1.05, y: -2 }}
-      className="rounded-2xl shadow-lg ring-1 ring-black/5 px-4 py-3 bg-white/90 backdrop-blur-sm cursor-grab active:cursor-grabbing"
-      style={{ width: 220 }}
+      whileHover={{ scale: 1.02, y: -1 }}
+      className={`rounded-2xl shadow-lg ring-1 ring-black/5 bg-white/90 backdrop-blur-sm pointer-events-auto ${
+        isMobile ? 'px-2.5 py-2' : 'px-4 py-3'
+      }`}
+      style={{ width: isMobile ? 160 : 220 }}
     >
       <Handle type="target" position={Position.Top} style={{ visibility: "hidden" }} />
       <Handle type="source" position={Position.Bottom} style={{ visibility: "hidden" }} />
-      <div className="flex items-start gap-3">
-        <div className="w-10 h-10 rounded-xl flex items-center justify-center ring-1" style={{ backgroundColor: bg, color: "#ED7424", borderColor: "#ffffff80" }}>
-          <Icon className="w-5 h-5" />
+      <div className={`flex items-start ${isMobile ? 'gap-2' : 'gap-3'}`}>
+        <div 
+          className={`rounded-xl flex items-center justify-center ring-1 shrink-0 ${
+            isMobile ? 'w-7 h-7' : 'w-10 h-10'
+          }`}
+          style={{ backgroundColor: bg, color: "#ED7424", borderColor: "#ffffff80" }}
+        >
+          <Icon className={isMobile ? 'w-3.5 h-3.5' : 'w-5 h-5'} />
         </div>
-        <div className="min-w-0">
-          <div className="font-heading text-sm font-semibold text-[#111827] leading-snug">{title}</div>
-          <div className="text-[11px] text-[#6B7280] leading-snug">{subtitle}</div>
+        <div className="min-w-0 flex-1">
+          <div className={`font-heading font-semibold text-[#111827] leading-snug ${
+            isMobile ? 'text-[11px]' : 'text-sm'
+          }`}>
+            {title}
+          </div>
+          <div className={`text-[#6B7280] leading-snug ${
+            isMobile ? 'text-[9px]' : 'text-[11px]'
+          }`}>
+            {subtitle}
+          </div>
         </div>
       </div>
     </motion.div>
