@@ -19,9 +19,21 @@ Background Image:
 - Source: Cloudinary CDN
 
 Hero Right Image:
-- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-hero-transformed/distant-learning-_hero_b1sx2i
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-tutor-transformed/distant-learning-_tutor_nwmb6b
 - Description: Hero section right container visual element
 - Recommended Size: 800x600px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+
+================================================================================
+
+📌 TUTOR PAIN POINTS EMPATHY SECTION
+================================================================================
+Tutor Multitask Illustration:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-tutor-multitask-transform/automations-illustration_zom9p8
+- Description: Overwhelmed tutor managing multiple apps and tools
+- Recommended Size: 600x500px
 - Format: WEBP
 - Source: Cloudinary CDN
 
@@ -33,6 +45,18 @@ Hero Right Image:
 Laptop-Mobile Mockup Image:
 - URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_laptop-mobile-mockup-transformed/Laptop-mobile-mockup-1_ezmdlm
 - Description: Vacademy laptop and mobile interface mockup showing seamless teaching experience
+- Recommended Size: 1200x800px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+
+================================================================================
+
+📌 UNIFIED PLATFORM SECTION (Everything your online tutoring needs, in one place)
+================================================================================
+Primary Illustration:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_laptop-mobile-mockup-transformed/Laptop-mobile-mockup-1_ezmdlm
+- Description: Unified platform mockup for the unified section below pain points
 - Recommended Size: 1200x800px
 - Format: WEBP
 - Source: Cloudinary CDN
@@ -55,6 +79,28 @@ Mobile Chat Placeholder:
 - Recommended Size: 720x1520px (9:19 ratio)
 - Format: PNG
 
+
+================================================================================
+
+📌 ADMIN DASHBOARD BANNER
+================================================================================
+Banner Image:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_admin-dashboard-transformed/admin-dashboard-mockup-MacBook_Air_15_inch_acqgco
+- Description: Admin dashboard mockup used in the orange gradient banner after Innovation section
+- Recommended Size: 1600x900px
+- Format: WEBP
+- Source: Cloudinary CDN
+
+================================================================================
+
+📌 LEARNER APP BANNER
+================================================================================
+Banner Image:
+- URL: https://res.cloudinary.com/dwtmtd0oz/image/upload/t_learner-app-transformed/mobile-app-Hand_and_iPhone_16_Pro_poznpr
+- Description: Learner app mockup used in the orange gradient banner below the student experience section
+- Recommended Size: 1600x900px
+- Format: WEBP
+- Source: Cloudinary CDN
 
 ================================================================================
 

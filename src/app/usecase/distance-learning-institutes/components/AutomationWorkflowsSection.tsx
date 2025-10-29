@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import ReactFlow, { Node, Edge, MarkerType, ReactFlowInstance, Handle, Position } from "reactflow";
 import type { NodeProps, NodeTypes } from "reactflow";
 import "reactflow/dist/style.css";
@@ -96,46 +95,27 @@ export function AutomationWorkflowsSection() {
   return (
     <section className="bg-[#F5F7FA] py-20 lg:py-28" aria-labelledby="automation-heading">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Header row: copy left, illustration right */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 mb-10 lg:mb-14">
-          <div className="lg:col-span-6">
-            <motion.h2
-              id="automation-heading"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827]"
-            >
-              Automation That Works While You Teach
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="mt-4 text-[#4B5563] text-base md:text-lg max-w-3xl"
-            >
-              Reduce manual tasks and reclaim teaching time. Automations handle student onboarding, attendance, assessments, reminders, reporting, and payments so your online academy runs smoothly.
-            </motion.p>
-          </div>
-
-          <motion.div
+        {/* Header section - centered */}
+        <div className="text-center mb-16 lg:mb-20">
+          <motion.h2
+            id="automation-heading"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#111827]"
+          >
+            Automation That Works While You Teach
+          </motion.h2>
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="lg:col-span-6"
+            className="mt-4 text-[#4B5563] text-base md:text-lg max-w-3xl mx-auto"
           >
-            <Image
-              src="https://res.cloudinary.com/dwtmtd0oz/image/upload/t_automations-illustration-transformed/automations-illustration_vh83qf"
-              alt="Automations illustration"
-              width={960}
-              height={720}
-              className="w-full h-auto"
-              priority
-            />
-          </motion.div>
+            Reduce manual tasks and reclaim teaching time. Automations handle student onboarding, attendance, assessments, reminders, reporting, and payments so your online academy runs smoothly.
+          </motion.p>
         </div>
 
         {/* Workflow area split: left tabs, right canvas */}
@@ -546,7 +526,7 @@ function WorkflowCanvas({ activeKey }: { activeKey: string }) {
     <div className="w-full">
       <div 
         style={{ height: `${canvasDimensions.height}px` }}
-        className="[&_.react-flow\_\_renderer]:pointer-events-none [&_.react-flow\_\_pane]:pointer-events-none"
+        className="[&_.react-flow__renderer]:pointer-events-none [&_.react-flow__pane]:pointer-events-none"
       >
         <ReactFlow
           nodes={orientedNodes}
@@ -614,4 +594,3 @@ function AutomationNode({ data }: NodeProps<AutomationNodeData>) {
     </motion.div>
   );
 }
-

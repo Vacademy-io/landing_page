@@ -130,9 +130,9 @@ export function HeroSection() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.7 }}
-                  src="https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-hero-transformed/distant-learning-_hero_b1sx2i"
+                  src="https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-tutor-transformed/distant-learning-_tutor_nwmb6b"
                   alt="Distance Learning Hero Visual"
-                  className="max-w-full h-auto object-contain max-h-[420px] lg:max-h-[520px] drop-shadow-md"
+                  className="max-w-full h-auto object-contain max-h-[420px] lg:max-h-[520px] drop-shadow-lg rounded-2xl"
                 />
               </motion.div>
             </motion.div>

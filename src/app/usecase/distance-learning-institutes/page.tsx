@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/navbar/Navbar";
 import { HeroSection } from "./components/HeroSection";
+import { TutorPainPointsEmpathySection } from "./components/TutorPainPointsEmpathySection";
 import { AIToolsSection } from "./components/AIToolsSection";
+import { UnifiedPlatformSection } from "./components/UnifiedPlatformSection";
+import { InnovationFeatureSection } from "./components/InnovationFeatureSection";
+import AdminDashboardBanner from "./components/AdminDashboardBanner";
+import StudentExperienceSection from "./components/StudentExperienceSection";
+import LearnerAppBanner from "./components/LearnerAppBanner";
 import { ProductShowcaseSection } from "./components/ProductShowcaseSection";
 import { StatsSection } from "./components/StatsSection";
 import { PlanTeachSection } from "./components/PlanTeachSection";
@@ -33,9 +39,15 @@ export default function DistanceLearningInstitutesPage() {
     <>
       <Navbar foreground="dark" />
       <HeroSection />
+      <TutorPainPointsEmpathySection />
+      <UnifiedPlatformSection />
+      <PlanTeachSection />
+      <InnovationFeatureSection />
+      <AdminDashboardBanner />
+      <StudentExperienceSection />
+      <LearnerAppBanner />
       <AIToolsSection />
       <ProductShowcaseSection />
-      <PlanTeachSection />
       <AutomationWorkflowsSection />
       <StatsSection />
       <RealStoriesProofSection />
