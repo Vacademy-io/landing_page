@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
@@ -39,15 +39,39 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [showNav, setShowNav] = useState(true);
+  const lastScrollYRef = useRef(0);
   const isLightForeground = foreground === "light" && !isScrolled;
 
   // Handle scroll for enhanced glass effect
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const currentY = window.scrollY;
+
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setIsScrolled(currentY > 50);
+
+          const threshold = Math.max(window.innerHeight - 10, 200);
+          const pastFirstFold = currentY >= threshold;
+          const scrollingUp = currentY < lastScrollYRef.current - 4;
+          const scrollingDown = currentY > lastScrollYRef.current + 4;
+
+          if (scrollingUp || !pastFirstFold) {
+            setShowNav(true);
+          } else if (scrollingDown && pastFirstFold) {
+            setShowNav(false);
+          }
+
+          lastScrollYRef.current = currentY;
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -80,7 +104,7 @@ export default function Navbar({ foreground = "dark" }: NavbarProps) {
     <>
       <motion.header 
         initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: showNav ? 1 : 0, y: showNav ? 0 : -60 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="fixed top-0 z-40 w-full flex justify-center transition-all duration-300"
       >
