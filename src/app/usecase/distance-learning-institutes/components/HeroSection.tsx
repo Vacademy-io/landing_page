@@ -3,10 +3,51 @@
 import { motion } from "framer-motion";
 import { Button } from "./Button";
 import { ArrowRight } from "lucide-react";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export function HeroSection() {
+  const heroRef = useRef<HTMLElement | null>(null);
+  const imageWrapRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!heroRef.current || !imageWrapRef.current) return;
+
+    const ctx = gsap.context(() => {
+      gsap.set(imageWrapRef.current, { willChange: "transform" });
+
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: "top top",
+          end: "+=160%",
+          scrub: true,
+          pin: true,
+          anticipatePin: 1,
+        },
+      });
+
+      tl.to(
+        imageWrapRef.current,
+        {
+          scale: 5,
+          x: "20vw",
+          y: "0vh",
+          ease: "easeInOut",
+          duration: 1,
+          delay: 0.5,
+        },
+        0,
+      );
+    }, heroRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <header className="relative h-screen flex items-center justify-center overflow-hidden pt-24 sm:pt-28 md:pt-32 lg:pt-20 bg-[#F5F7FA]">
+    <header ref={heroRef} className="relative h-screen flex items-center justify-center overflow-hidden pt-24 sm:pt-28 md:pt-32 lg:pt-20 bg-[#F5F7FA]">
 
       {/* Content */}
       <div className="relative z-10 w-full flex justify-center h-full">
@@ -112,7 +153,7 @@ export function HeroSection() {
               </motion.div>
             </div>
 
-            {/* Right Container - Hero Image */}
+            {/* Right Container - Hero Image (pinned scroll animation) */}
             <motion.div 
               initial={{ opacity: 0, x: 30, scale: 0.9 }}
               animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -123,17 +164,19 @@ export function HeroSection() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                whileHover={{ scale: 1.02 }}
                 className="w-full h-full flex items-center justify-center"
+                ref={imageWrapRef}
               >
-                <motion.img
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.7 }}
-                  src="https://res.cloudinary.com/dwtmtd0oz/image/upload/t_distant-learning-tutor-transformed/distant-learning-_tutor_nwmb6b"
-                  alt="Distance Learning Hero Visual"
-                  className="max-w-full h-auto object-contain max-h-[420px] lg:max-h-[520px] drop-shadow-lg rounded-2xl"
-                />
+                <div className="relative">
+                  <motion.img
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.7 }}
+                    src="https://res.cloudinary.com/dsyhjlwqu/image/upload/t_cover/ChatGPT_Image_Oct_29_2025_10_14_30_PM_aq5twd"
+                    alt="Distance Learning Hero Visual"
+                    className="max-w-full h-auto object-contain max-h-[420px] lg:max-h-[520px] drop-shadow-lg rounded-2xl"
+                  />
+                </div>
               </motion.div>
             </motion.div>
           </div>

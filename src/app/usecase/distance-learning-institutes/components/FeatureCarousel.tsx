@@ -157,9 +157,20 @@ export function FeatureCarousel() {
 
     const computeSizes = () => {
       const containerWidth = container.getBoundingClientRect().width;
+
+      // Center the first card by adding left padding to the track
+      const firstChild = track.firstElementChild as HTMLElement | null;
+      if (firstChild) {
+        const firstWidth = firstChild.getBoundingClientRect().width;
+        const padLeft = Math.max(0, (containerWidth - firstWidth) / 2);
+        track.style.paddingLeft = `${padLeft}px`;
+      }
+
       const trackWidth = track.scrollWidth;
       const maxScroll = Math.max(0, trackWidth - containerWidth);
       maxScrollRef.current = maxScroll;
+
+      // Clamp and apply current scroll after recalculating sizes
       scrollRef.current = Math.min(scrollRef.current, maxScroll);
       applyTransform(scrollRef.current);
     };
@@ -184,13 +195,23 @@ export function FeatureCarousel() {
 
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) return;
+    const track = trackRef.current;
+    if (!container || !track) return;
 
     const handleWheel = (event: WheelEvent) => {
+      // Symmetric engagement around 30% viewport line depending on scroll direction
+      const rect = container.getBoundingClientRect();
+      const thresholdLine = window.innerHeight * 0.3;
+      const { deltaY } = event;
+
+      const inViewport = rect.bottom > 0 && rect.top < window.innerHeight;
+      const engageDown = deltaY > 0 && rect.top <= thresholdLine; // scrolling down, top at/above 30%
+      const engageUp = deltaY < 0 && rect.top >= thresholdLine;   // scrolling up, top at/below 30%
+      const shouldEngage = inViewport && (engageDown || engageUp);
+      if (!shouldEngage) return;
+
       const maxScroll = maxScrollRef.current;
       if (maxScroll <= 0) return;
-
-      const { deltaY } = event;
       const current = scrollRef.current;
       const atStart = current <= 1;
       const atEnd = current >= maxScroll - 1;
@@ -212,10 +233,10 @@ export function FeatureCarousel() {
       }
     };
 
-    container.addEventListener("wheel", handleWheel, { passive: false });
+    window.addEventListener("wheel", handleWheel, { passive: false });
 
     return () => {
-      container.removeEventListener("wheel", handleWheel);
+      window.removeEventListener("wheel", handleWheel as unknown as EventListener, { capture: false });
       if (frameRef.current) cancelAnimationFrame(frameRef.current);
     };
   }, [applyTransform]);
@@ -229,7 +250,7 @@ export function FeatureCarousel() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="min-w-0 flex-[0_0_75%] px-3 sm:flex-[0_0_40%] md:px-4 lg:flex-[0_0_25%]"
+            className="min-w-0 flex-[0_0_90%] px-3 sm:flex-[0_0_80%] md:px-4 lg:flex-[0_0_45%]"
           >
             <div
               className={`h-full min-h-[500px] rounded-2xl bg-gradient-to-b ${feature.gradient} p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col`}
